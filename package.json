@@ -1,0 +1,14 @@
+{
+  "name": "jtr-live-demo",
+  "version": "1.0.0",
+  "description": "John the Ripper — Live Password Auditing Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}

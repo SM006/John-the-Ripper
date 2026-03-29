@@ -1,0 +1,2955 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=rockyou.txt D:/E/repos/jhontheripper/demo/shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=rockyou.txt D:/E/repos/jhontheripper/demo/hash_md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked user1
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=rockyou.txt D:/E/repos/jhontheripper/demo/hash_sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked user2
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=rockyou.txt D:/E/repos/jhontheripper/demo/hash_bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:01 + Cracked user3
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=All --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: All
+0:00:00:00 ! Unknown incremental mode: All
+0:00:00:00 Terminating on error, inc.c:517
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:01 + Cracked target
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=All --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: All
+0:00:00:00 ! Unknown incremental mode: All
+0:00:00:00 Terminating on error, inc.c:517
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:10 + Cracked target
+0:00:00:10 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:11 + Cracked target
+0:00:00:11 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:01 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: ascii
+0:00:00:00 - Lengths 0 to 13, up to 95 different characters
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: ascii
+0:00:00:00 - Lengths 0 to 13, up to 95 different characters
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: ascii
+0:00:00:00 - Lengths 0 to 13, up to 95 different characters
+0:00:00:00 - No stacked rules
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 1
+0:00:00:00 - Trying length 6, fixed @1, character count 1
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 1
+0:00:00:00 - Trying length 5, fixed @1, character count 1
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 2
+0:00:00:00 - Trying length 6, fixed @2, character count 2
+0:00:00:00 - Trying length 6, fixed @6, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 2
+0:00:00:00 - Trying length 5, fixed @5, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 2
+0:00:00:00 - Trying length 6, fixed @3, character count 2
+0:00:00:00 - Trying length 6, fixed @4, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 2
+0:00:00:00 - Trying length 5, fixed @2, character count 2
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 1
+0:00:00:00 - Trying length 7, fixed @1, character count 1
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 2
+0:00:00:00 - Trying length 5, fixed @4, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 2
+0:00:00:00 - Trying length 6, fixed @1, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 2
+0:00:00:00 - Trying length 5, fixed @3, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 2
+0:00:00:00 - Trying length 6, fixed @5, character count 2
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 1
+0:00:00:00 - Trying length 4, fixed @1, character count 1
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 2
+0:00:00:00 - Trying length 5, fixed @1, character count 2
+0:00:00:00 - Expanding tables for length 5 to character count 3
+0:00:00:00 - Trying length 5, fixed @2, character count 3
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 3
+0:00:00:00 - Trying length 6, fixed @2, character count 3
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 2
+0:00:00:00 - Trying length 4, fixed @2, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 3
+0:00:00:00 - Trying length 6, fixed @6, character count 3
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @2, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 3
+0:00:00:00 - Trying length 6, fixed @3, character count 3
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 3
+0:00:00:00 - Trying length 5, fixed @5, character count 3
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @5, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 3
+0:00:00:00 - Trying length 5, fixed @3, character count 3
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 3
+0:00:00:00 - Trying length 6, fixed @1, character count 3
+0:00:00:00 - Trying length 6, fixed @4, character count 3
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @3, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 3
+0:00:00:00 - Trying length 5, fixed @4, character count 3
+0:00:00:00 - Switching to length 8
+0:00:00:00 - Expanding tables for length 8 to character count 1
+0:00:00:00 - Trying length 8, fixed @1, character count 1
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 3
+0:00:00:00 - Trying length 6, fixed @5, character count 3
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 2
+0:00:00:00 - Trying length 4, fixed @1, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 3
+0:00:00:00 - Trying length 5, fixed @1, character count 3
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @7, character count 2
+0:00:00:00 - Trying length 7, fixed @4, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 4
+0:00:00:00 - Trying length 5, fixed @2, character count 4
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @1, character count 2
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 4
+0:00:00:00 - Trying length 6, fixed @6, character count 4
+0:00:00:00 - Switching to length 2
+0:00:00:00 - Expanding tables for length 2 to character count 1
+0:00:00:00 - Trying length 2, fixed @1, character count 1
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 4
+0:00:00:00 - Trying length 5, fixed @5, character count 4
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 2
+0:00:00:00 - Trying length 4, fixed @4, character count 2
+0:00:00:00 - Switching to length 7
+0:00:00:00 - Expanding tables for length 7 to character count 2
+0:00:00:00 - Trying length 7, fixed @6, character count 2
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 4
+0:00:00:00 - Trying length 5, fixed @3, character count 4
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 4
+0:00:00:00 - Trying length 6, fixed @2, character count 4
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 5
+0:00:00:00 - Trying length 5, fixed @2, character count 5
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 5
+0:00:00:00 - Trying length 6, fixed @2, character count 5
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 2
+0:00:00:00 - Trying length 4, fixed @3, character count 2
+0:00:00:00 - Expanding tables for length 4 to character count 3
+0:00:00:00 - Trying length 4, fixed @2, character count 3
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 5
+0:00:00:00 - Trying length 5, fixed @4, character count 4
+0:00:00:00 - Trying length 5, fixed @5, character count 5
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 5
+0:00:00:00 - Trying length 6, fixed @1, character count 4
+0:00:00:00 - Trying length 6, fixed @3, character count 4
+0:00:00:00 - Switching to length 5
+0:00:00:00 - Expanding tables for length 5 to character count 5
+0:00:00:00 - Trying length 5, fixed @3, character count 5
+0:00:00:00 - Switching to length 6
+0:00:00:00 - Expanding tables for length 6 to character count 5
+0:00:00:00 - Trying length 6, fixed @5, character count 4
+0:00:00:00 - Trying length 6, fixed @5, character count 5
+0:00:00:00 - Trying length 6, fixed @3, character count 5
+0:00:00:00 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 5
+0:00:00:01 - Trying length 5, fixed @1, character count 4
+0:00:00:01 - Switching to length 2
+0:00:00:01 - Expanding tables for length 2 to character count 2
+0:00:00:01 - Trying length 2, fixed @2, character count 2
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 5
+0:00:00:01 - Trying length 5, fixed @4, character count 5
+0:00:00:01 - Trying length 5, fixed @1, character count 5
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @2, character count 3
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 1
+0:00:00:01 - Trying length 3, fixed @1, character count 1
+0:00:00:01 - Expanding tables for length 3 to character count 2
+0:00:00:01 - Trying length 3, fixed @2, character count 2
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 3
+0:00:00:01 - Trying length 4, fixed @4, character count 3
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 5
+0:00:00:01 - Trying length 6, fixed @4, character count 4
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @2, character count 2
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 5
+0:00:00:01 - Trying length 6, fixed @1, character count 5
+0:00:00:01 + Cracked bob
+0:00:00:01 - Trying length 6, fixed @6, character count 5
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @5, character count 3
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @7, character count 2
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @3, character count 3
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 3
+0:00:00:01 - Trying length 4, fixed @1, character count 3
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 6
+0:00:00:01 - Trying length 5, fixed @5, character count 6
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @6, character count 2
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 5
+0:00:00:01 - Trying length 6, fixed @4, character count 5
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 6
+0:00:00:01 - Trying length 5, fixed @3, character count 6
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @4, character count 3
+0:00:00:01 - Trying length 7, fixed @6, character count 3
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 3
+0:00:00:01 - Trying length 4, fixed @3, character count 3
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 2
+0:00:00:01 - Trying length 3, fixed @1, character count 2
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 4
+0:00:00:01 - Trying length 4, fixed @2, character count 4
+0:00:00:01 - Switching to length 9
+0:00:00:01 - Expanding tables for length 9 to character count 1
+0:00:00:01 - Trying length 9, fixed @1, character count 1
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @5, character count 2
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @1, character count 3
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 6
+0:00:00:01 - Trying length 5, fixed @2, character count 6
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 6
+0:00:00:01 - Trying length 6, fixed @5, character count 6
+0:00:00:01 - Switching to length 1
+0:00:00:01 - Expanding tables for length 1 to character count 1
+0:00:00:01 - Trying length 1, fixed @1, character count 1
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @1, character count 2
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 3
+0:00:00:01 - Trying length 3, fixed @2, character count 3
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 6
+0:00:00:01 - Trying length 5, fixed @4, character count 6
+0:00:00:01 - Trying length 5, fixed @1, character count 6
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @3, character count 2
+0:00:00:01 - Switching to length 2
+0:00:00:01 - Expanding tables for length 2 to character count 2
+0:00:00:01 - Trying length 2, fixed @1, character count 2
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 6
+0:00:00:01 - Trying length 6, fixed @3, character count 6
+0:00:00:01 - Switching to length 2
+0:00:00:01 - Expanding tables for length 2 to character count 3
+0:00:00:01 - Trying length 2, fixed @2, character count 3
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 6
+0:00:00:01 - Trying length 6, fixed @6, character count 6
+0:00:00:01 - Switching to length 7
+0:00:00:01 - Expanding tables for length 7 to character count 3
+0:00:00:01 - Trying length 7, fixed @7, character count 3
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 5
+0:00:00:01 - Trying length 4, fixed @2, character count 5
+0:00:00:01 - Switching to length 2
+0:00:00:01 - Expanding tables for length 2 to character count 4
+0:00:00:01 - Trying length 2, fixed @2, character count 4
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @4, character count 2
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 3
+0:00:00:01 - Trying length 3, fixed @3, character count 2
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 7
+0:00:00:01 - Trying length 5, fixed @5, character count 7
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 3
+0:00:00:01 - Trying length 3, fixed @1, character count 3
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 6
+0:00:00:01 - Trying length 6, fixed @2, character count 6
+0:00:00:01 - Switching to length 5
+0:00:00:01 - Expanding tables for length 5 to character count 7
+0:00:00:01 - Trying length 5, fixed @1, character count 7
+0:00:00:01 - Switching to length 6
+0:00:00:01 - Expanding tables for length 6 to character count 6
+0:00:00:01 - Trying length 6, fixed @1, character count 6
+0:00:00:01 - Switching to length 4
+0:00:00:01 - Expanding tables for length 4 to character count 5
+0:00:00:01 - Trying length 4, fixed @1, character count 4
+0:00:00:01 - Trying length 4, fixed @3, character count 4
+0:00:00:01 - Trying length 4, fixed @1, character count 5
+0:00:00:01 - Switching to length 3
+0:00:00:01 - Expanding tables for length 3 to character count 3
+0:00:00:01 - Trying length 3, fixed @3, character count 3
+0:00:00:01 - Switching to length 8
+0:00:00:01 - Expanding tables for length 8 to character count 2
+0:00:00:01 - Trying length 8, fixed @8, character count 2
+0:00:00:01 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 6
+0:00:00:02 - Trying length 6, fixed @4, character count 6
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 5
+0:00:00:02 - Trying length 4, fixed @3, character count 5
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 4
+0:00:00:02 - Trying length 3, fixed @1, character count 4
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 7
+0:00:00:02 - Trying length 5, fixed @3, character count 7
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 4
+0:00:00:02 - Trying length 7, fixed @2, character count 4
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 7
+0:00:00:02 - Trying length 6, fixed @5, character count 7
+0:00:00:02 - Switching to length 2
+0:00:00:02 - Expanding tables for length 2 to character count 4
+0:00:00:02 - Trying length 2, fixed @1, character count 3
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 8
+0:00:00:02 - Trying length 5, fixed @1, character count 8
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 4
+0:00:00:02 - Trying length 3, fixed @2, character count 4
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 5
+0:00:00:02 - Trying length 4, fixed @4, character count 4
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 7
+0:00:00:02 - Trying length 6, fixed @6, character count 7
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 8
+0:00:00:02 - Trying length 5, fixed @2, character count 7
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 4
+0:00:00:02 - Trying length 3, fixed @3, character count 4
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 4
+0:00:00:02 - Trying length 7, fixed @6, character count 4
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:02 - Trying length 7, fixed @6, character count 5
+0:00:00:02 - Switching to length 2
+0:00:00:02 - Expanding tables for length 2 to character count 4
+0:00:00:02 - Trying length 2, fixed @1, character count 4
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 8
+0:00:00:02 - Trying length 5, fixed @4, character count 7
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 5
+0:00:00:02 - Trying length 4, fixed @4, character count 5
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 7
+0:00:00:02 - Trying length 6, fixed @3, character count 7
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 5
+0:00:00:02 - Trying length 3, fixed @1, character count 5
+0:00:00:02 - Switching to length 10
+0:00:00:02 - Expanding tables for length 10 to character count 1
+0:00:00:02 - Trying length 10, fixed @1, character count 1
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:02 - Trying length 7, fixed @1, character count 4
+0:00:00:02 - Trying length 7, fixed @1, character count 5
+0:00:00:02 - Switching to length 2
+0:00:00:02 - Expanding tables for length 2 to character count 5
+0:00:00:02 - Trying length 2, fixed @1, character count 5
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 7
+0:00:00:02 - Trying length 6, fixed @1, character count 7
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 8
+0:00:00:02 - Trying length 5, fixed @3, character count 8
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 6
+0:00:00:02 - Trying length 4, fixed @1, character count 6
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:02 - Trying length 7, fixed @3, character count 4
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 5
+0:00:00:02 - Trying length 3, fixed @2, character count 5
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 6
+0:00:00:02 - Trying length 4, fixed @3, character count 6
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 5
+0:00:00:02 - Trying length 3, fixed @3, character count 5
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 7
+0:00:00:02 - Trying length 6, fixed @4, character count 7
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 9
+0:00:00:02 - Trying length 5, fixed @1, character count 9
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 8
+0:00:00:02 - Trying length 6, fixed @5, character count 8
+0:00:00:02 - Switching to length 1
+0:00:00:02 - Expanding tables for length 1 to character count 2
+0:00:00:02 - Trying length 1, fixed @1, character count 2
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 6
+0:00:00:02 - Trying length 3, fixed @1, character count 6
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:02 - Trying length 7, fixed @7, character count 4
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 6
+0:00:00:02 - Trying length 4, fixed @2, character count 6
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 9
+0:00:00:02 - Trying length 5, fixed @2, character count 8
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 6
+0:00:00:02 - Trying length 3, fixed @3, character count 6
+0:00:00:02 - Switching to length 8
+0:00:00:02 - Expanding tables for length 8 to character count 3
+0:00:00:02 - Trying length 8, fixed @2, character count 3
+0:00:00:02 - Switching to length 9
+0:00:00:02 - Expanding tables for length 9 to character count 2
+0:00:00:02 - Trying length 9, fixed @2, character count 2
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 9
+0:00:00:02 - Trying length 5, fixed @4, character count 8
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 6
+0:00:00:02 - Trying length 4, fixed @4, character count 6
+0:00:00:02 - Switching to length 8
+0:00:00:02 - Expanding tables for length 8 to character count 3
+0:00:00:02 - Trying length 8, fixed @6, character count 3
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:02 - Trying length 7, fixed @5, character count 4
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 7
+0:00:00:02 - Trying length 3, fixed @3, character count 7
+0:00:00:02 - Switching to length 8
+0:00:00:02 - Expanding tables for length 8 to character count 3
+0:00:00:02 - Trying length 8, fixed @7, character count 3
+0:00:00:02 - Switching to length 1
+0:00:00:02 - Expanding tables for length 1 to character count 3
+0:00:00:02 - Trying length 1, fixed @1, character count 3
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 8
+0:00:00:02 - Trying length 6, fixed @2, character count 7
+0:00:00:02 - Switching to length 4
+0:00:00:02 - Expanding tables for length 4 to character count 7
+0:00:00:02 - Trying length 4, fixed @1, character count 7
+0:00:00:02 - Switching to length 6
+0:00:00:02 - Expanding tables for length 6 to character count 8
+0:00:00:02 - Trying length 6, fixed @6, character count 8
+0:00:00:02 - Switching to length 9
+0:00:00:02 - Expanding tables for length 9 to character count 2
+0:00:00:02 - Trying length 9, fixed @8, character count 2
+0:00:00:02 - Switching to length 3
+0:00:00:02 - Expanding tables for length 3 to character count 7
+0:00:00:02 - Trying length 3, fixed @1, character count 7
+0:00:00:02 - Switching to length 5
+0:00:00:02 - Expanding tables for length 5 to character count 9
+0:00:00:02 - Trying length 5, fixed @5, character count 8
+0:00:00:02 - Switching to length 7
+0:00:00:02 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @4, character count 4
+0:00:00:03 - Switching to length 4
+0:00:00:03 - Expanding tables for length 4 to character count 7
+0:00:00:03 - Trying length 4, fixed @3, character count 7
+0:00:00:03 - Switching to length 7
+0:00:00:03 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @2, character count 5
+0:00:00:03 - Switching to length 9
+0:00:00:03 - Expanding tables for length 9 to character count 2
+0:00:00:03 - Trying length 9, fixed @3, character count 2
+0:00:00:03 - Switching to length 7
+0:00:00:03 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @3, character count 5
+0:00:00:03 - Switching to length 8
+0:00:00:03 - Expanding tables for length 8 to character count 3
+0:00:00:03 - Trying length 8, fixed @3, character count 3
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 9
+0:00:00:03 - Trying length 5, fixed @3, character count 9
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 8
+0:00:00:03 - Trying length 6, fixed @3, character count 8
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 5
+0:00:00:03 - Trying length 2, fixed @2, character count 5
+0:00:00:03 - Switching to length 1
+0:00:00:03 - Expanding tables for length 1 to character count 4
+0:00:00:03 - Trying length 1, fixed @1, character count 4
+0:00:00:03 - Expanding tables for length 1 to character count 5
+0:00:00:03 - Trying length 1, fixed @1, character count 5
+0:00:00:03 - Expanding tables for length 1 to character count 6
+0:00:00:03 - Trying length 1, fixed @1, character count 6
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 6
+0:00:00:03 - Trying length 2, fixed @1, character count 6
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 8
+0:00:00:03 - Trying length 6, fixed @1, character count 8
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 10
+0:00:00:03 - Trying length 5, fixed @1, character count 10
+0:00:00:03 - Switching to length 7
+0:00:00:03 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @5, character count 5
+0:00:00:03 - Switching to length 9
+0:00:00:03 - Expanding tables for length 9 to character count 2
+0:00:00:03 - Trying length 9, fixed @5, character count 2
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 7
+0:00:00:03 - Trying length 2, fixed @1, character count 7
+0:00:00:03 - Switching to length 8
+0:00:00:03 - Expanding tables for length 8 to character count 3
+0:00:00:03 - Trying length 8, fixed @5, character count 3
+0:00:00:03 - Switching to length 3
+0:00:00:03 - Expanding tables for length 3 to character count 8
+0:00:00:03 - Trying length 3, fixed @1, character count 8
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 8
+0:00:00:03 - Trying length 2, fixed @1, character count 8
+0:00:00:03 - Switching to length 9
+0:00:00:03 - Expanding tables for length 9 to character count 2
+0:00:00:03 - Trying length 9, fixed @7, character count 2
+0:00:00:03 - Switching to length 7
+0:00:00:03 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @7, character count 5
+0:00:00:03 - Switching to length 4
+0:00:00:03 - Expanding tables for length 4 to character count 7
+0:00:00:03 - Trying length 4, fixed @4, character count 7
+0:00:00:03 - Expanding tables for length 4 to character count 8
+0:00:00:03 - Trying length 4, fixed @1, character count 8
+0:00:00:03 - Switching to length 1
+0:00:00:03 - Expanding tables for length 1 to character count 7
+0:00:00:03 - Trying length 1, fixed @1, character count 7
+0:00:00:03 - Expanding tables for length 1 to character count 8
+0:00:00:03 - Trying length 1, fixed @1, character count 8
+0:00:00:03 - Expanding tables for length 1 to character count 9
+0:00:00:03 - Trying length 1, fixed @1, character count 9
+0:00:00:03 - Switching to length 4
+0:00:00:03 - Expanding tables for length 4 to character count 8
+0:00:00:03 - Trying length 4, fixed @3, character count 8
+0:00:00:03 - Switching to length 8
+0:00:00:03 - Expanding tables for length 8 to character count 3
+0:00:00:03 - Trying length 8, fixed @8, character count 3
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 8
+0:00:00:03 - Trying length 6, fixed @4, character count 8
+0:00:00:03 - Expanding tables for length 6 to character count 9
+0:00:00:03 - Trying length 6, fixed @5, character count 9
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 10
+0:00:00:03 - Trying length 5, fixed @2, character count 9
+0:00:00:03 - Switching to length 9
+0:00:00:03 - Expanding tables for length 9 to character count 2
+0:00:00:03 - Trying length 9, fixed @6, character count 2
+0:00:00:03 - Switching to length 7
+0:00:00:03 - Expanding tables for length 7 to character count 5
+0:00:00:03 - Trying length 7, fixed @4, character count 5
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 10
+0:00:00:03 - Trying length 5, fixed @5, character count 9
+0:00:00:03 - Switching to length 9
+0:00:00:03 - Expanding tables for length 9 to character count 2
+0:00:00:03 - Trying length 9, fixed @1, character count 2
+0:00:00:03 - Switching to length 8
+0:00:00:03 - Expanding tables for length 8 to character count 3
+0:00:00:03 - Trying length 8, fixed @4, character count 3
+0:00:00:03 - Switching to length 3
+0:00:00:03 - Expanding tables for length 3 to character count 8
+0:00:00:03 - Trying length 3, fixed @3, character count 8
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 10
+0:00:00:03 - Trying length 5, fixed @4, character count 9
+0:00:00:03 - Switching to length 8
+0:00:00:03 - Expanding tables for length 8 to character count 3
+0:00:00:03 - Trying length 8, fixed @1, character count 3
+0:00:00:03 + Cracked alice
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 9
+0:00:00:03 - Trying length 6, fixed @6, character count 9
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 8
+0:00:00:03 - Trying length 2, fixed @2, character count 6
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 10
+0:00:00:03 - Trying length 5, fixed @3, character count 10
+0:00:00:03 - Switching to length 4
+0:00:00:03 - Expanding tables for length 4 to character count 8
+0:00:00:03 - Trying length 4, fixed @2, character count 7
+0:00:00:03 - Switching to length 5
+0:00:00:03 - Expanding tables for length 5 to character count 11
+0:00:00:03 - Trying length 5, fixed @1, character count 11
+0:00:00:03 - Switching to length 1
+0:00:00:03 - Expanding tables for length 1 to character count 10
+0:00:00:03 - Trying length 1, fixed @1, character count 10
+0:00:00:03 - Expanding tables for length 1 to character count 11
+0:00:00:03 - Trying length 1, fixed @1, character count 11
+0:00:00:03 - Switching to length 3
+0:00:00:03 - Expanding tables for length 3 to character count 9
+0:00:00:03 - Trying length 3, fixed @3, character count 9
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 9
+0:00:00:03 - Trying length 6, fixed @3, character count 9
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 8
+0:00:00:03 - Trying length 2, fixed @2, character count 7
+0:00:00:03 - Expanding tables for length 2 to character count 9
+0:00:00:03 - Trying length 2, fixed @1, character count 9
+0:00:00:03 - Switching to length 3
+0:00:00:03 - Expanding tables for length 3 to character count 9
+0:00:00:03 - Trying length 3, fixed @1, character count 9
+0:00:00:03 - Switching to length 2
+0:00:00:03 - Expanding tables for length 2 to character count 10
+0:00:00:03 - Trying length 2, fixed @1, character count 10
+0:00:00:03 - Switching to length 4
+0:00:00:03 - Expanding tables for length 4 to character count 8
+0:00:00:03 - Trying length 4, fixed @4, character count 8
+0:00:00:03 - Switching to length 6
+0:00:00:03 - Expanding tables for length 6 to character count 9
+0:00:00:04 - Trying length 6, fixed @2, character count 8
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 10
+0:00:00:04 - Trying length 3, fixed @3, character count 10
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 9
+0:00:00:04 - Trying length 4, fixed @3, character count 9
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @6, character count 6
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 9
+0:00:00:04 - Trying length 6, fixed @1, character count 9
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 11
+0:00:00:04 - Trying length 2, fixed @1, character count 11
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 11
+0:00:00:04 - Trying length 5, fixed @5, character count 10
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 12
+0:00:00:04 - Trying length 2, fixed @1, character count 12
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 11
+0:00:00:04 - Trying length 5, fixed @4, character count 10
+0:00:00:04 - Expanding tables for length 5 to character count 12
+0:00:00:04 - Trying length 5, fixed @1, character count 12
+0:00:00:04 - Switching to length 9
+0:00:00:04 - Expanding tables for length 9 to character count 2
+0:00:00:04 - Trying length 9, fixed @9, character count 2
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 9
+0:00:00:04 - Trying length 4, fixed @2, character count 8
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 13
+0:00:00:04 - Trying length 2, fixed @1, character count 13
+0:00:00:04 - Switching to length 1
+0:00:00:04 - Expanding tables for length 1 to character count 12
+0:00:00:04 - Trying length 1, fixed @1, character count 12
+0:00:00:04 - Expanding tables for length 1 to character count 13
+0:00:00:04 - Trying length 1, fixed @1, character count 13
+0:00:00:04 - Expanding tables for length 1 to character count 14
+0:00:00:04 - Trying length 1, fixed @1, character count 14
+0:00:00:04 - Expanding tables for length 1 to character count 15
+0:00:00:04 - Trying length 1, fixed @1, character count 15
+0:00:00:04 - Expanding tables for length 1 to character count 16
+0:00:00:04 - Trying length 1, fixed @1, character count 16
+0:00:00:04 - Expanding tables for length 1 to character count 17
+0:00:00:04 - Trying length 1, fixed @1, character count 17
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 10
+0:00:00:04 - Trying length 3, fixed @2, character count 6
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 10
+0:00:00:04 - Trying length 6, fixed @5, character count 10
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 12
+0:00:00:04 - Trying length 5, fixed @3, character count 11
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 9
+0:00:00:04 - Trying length 4, fixed @1, character count 9
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @5, character count 6
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 10
+0:00:00:04 - Trying length 3, fixed @1, character count 10
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 10
+0:00:00:04 - Trying length 6, fixed @4, character count 9
+0:00:00:04 - Switching to length 9
+0:00:00:04 - Expanding tables for length 9 to character count 2
+0:00:00:04 - Trying length 9, fixed @4, character count 2
+0:00:00:04 - Switching to length 10
+0:00:00:04 - Expanding tables for length 10 to character count 2
+0:00:00:04 - Trying length 10, fixed @2, character count 2
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 9
+0:00:00:04 - Trying length 4, fixed @4, character count 9
+0:00:00:04 - Expanding tables for length 4 to character count 10
+0:00:00:04 - Trying length 4, fixed @3, character count 10
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 12
+0:00:00:04 - Trying length 5, fixed @4, character count 11
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 10
+0:00:00:04 - Trying length 6, fixed @6, character count 10
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @2, character count 6
+0:00:00:04 - Trying length 7, fixed @7, character count 6
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 10
+0:00:00:04 - Trying length 3, fixed @2, character count 7
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @3, character count 6
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 13
+0:00:00:04 - Trying length 2, fixed @2, character count 8
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 11
+0:00:00:04 - Trying length 3, fixed @1, character count 11
+0:00:00:04 - Switching to length 8
+0:00:00:04 - Expanding tables for length 8 to character count 4
+0:00:00:04 - Trying length 8, fixed @2, character count 4
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 11
+0:00:00:04 - Trying length 4, fixed @3, character count 11
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 11
+0:00:00:04 - Trying length 3, fixed @3, character count 11
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 10
+0:00:00:04 - Trying length 6, fixed @2, character count 9
+0:00:00:04 - Trying length 6, fixed @1, character count 10
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 12
+0:00:00:04 - Trying length 5, fixed @5, character count 11
+0:00:00:04 - Trying length 5, fixed @4, character count 12
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @4, character count 6
+0:00:00:04 - Switching to length 10
+0:00:00:04 - Expanding tables for length 10 to character count 2
+0:00:00:04 - Trying length 10, fixed @9, character count 2
+0:00:00:04 - Switching to length 1
+0:00:00:04 - Expanding tables for length 1 to character count 18
+0:00:00:04 - Trying length 1, fixed @1, character count 18
+0:00:00:04 - Expanding tables for length 1 to character count 19
+0:00:00:04 - Trying length 1, fixed @1, character count 19
+0:00:00:04 - Expanding tables for length 1 to character count 20
+0:00:00:04 - Trying length 1, fixed @1, character count 20
+0:00:00:04 - Expanding tables for length 1 to character count 21
+0:00:00:04 - Trying length 1, fixed @1, character count 21
+0:00:00:04 - Expanding tables for length 1 to character count 22
+0:00:00:04 - Trying length 1, fixed @1, character count 22
+0:00:00:04 - Expanding tables for length 1 to character count 23
+0:00:00:04 - Trying length 1, fixed @1, character count 23
+0:00:00:04 - Expanding tables for length 1 to character count 24
+0:00:00:04 - Trying length 1, fixed @1, character count 24
+0:00:00:04 - Expanding tables for length 1 to character count 25
+0:00:00:04 - Trying length 1, fixed @1, character count 25
+0:00:00:04 - Expanding tables for length 1 to character count 26
+0:00:00:04 - Trying length 1, fixed @1, character count 26
+0:00:00:04 - Expanding tables for length 1 to character count 27
+0:00:00:04 - Trying length 1, fixed @1, character count 27
+0:00:00:04 - Expanding tables for length 1 to character count 28
+0:00:00:04 - Trying length 1, fixed @1, character count 28
+0:00:00:04 - Expanding tables for length 1 to character count 29
+0:00:00:04 - Trying length 1, fixed @1, character count 29
+0:00:00:04 - Switching to length 6
+0:00:00:04 - Expanding tables for length 6 to character count 10
+0:00:00:04 - Trying length 6, fixed @3, character count 10
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 12
+0:00:00:04 - Trying length 5, fixed @3, character count 12
+0:00:00:04 - Switching to length 3
+0:00:00:04 - Expanding tables for length 3 to character count 12
+0:00:00:04 - Trying length 3, fixed @3, character count 12
+0:00:00:04 - Switching to length 5
+0:00:00:04 - Expanding tables for length 5 to character count 13
+0:00:00:04 - Trying length 5, fixed @1, character count 13
+0:00:00:04 - Switching to length 7
+0:00:00:04 - Expanding tables for length 7 to character count 6
+0:00:00:04 - Trying length 7, fixed @1, character count 6
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 11
+0:00:00:04 - Trying length 4, fixed @2, character count 9
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 13
+0:00:00:04 - Trying length 2, fixed @2, character count 9
+0:00:00:04 - Switching to length 8
+0:00:00:04 - Expanding tables for length 8 to character count 4
+0:00:00:04 - Trying length 8, fixed @5, character count 4
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 11
+0:00:00:04 - Trying length 4, fixed @1, character count 10
+0:00:00:04 - Switching to length 2
+0:00:00:04 - Expanding tables for length 2 to character count 13
+0:00:00:04 - Trying length 2, fixed @2, character count 10
+0:00:00:04 - Switching to length 8
+0:00:00:04 - Expanding tables for length 8 to character count 4
+0:00:00:04 - Trying length 8, fixed @6, character count 4
+0:00:00:04 - Switching to length 4
+0:00:00:04 - Expanding tables for length 4 to character count 11
+0:00:00:04 - Trying length 4, fixed @4, character count 10
+0:00:00:04 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 10
+0:00:00:05 - Trying length 6, fixed @4, character count 10
+0:00:00:05 - Switching to length 10
+0:00:00:05 - Expanding tables for length 10 to character count 2
+0:00:00:05 - Trying length 10, fixed @6, character count 2
+0:00:00:05 - Switching to length 5
+0:00:00:05 - Expanding tables for length 5 to character count 14
+0:00:00:05 - Trying length 5, fixed @1, character count 14
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 13
+0:00:00:05 - Trying length 2, fixed @2, character count 11
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 12
+0:00:00:05 - Trying length 3, fixed @2, character count 8
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @5, character count 11
+0:00:00:05 - Switching to length 10
+0:00:00:05 - Expanding tables for length 10 to character count 2
+0:00:00:05 - Trying length 10, fixed @7, character count 2
+0:00:00:05 - Switching to length 4
+0:00:00:05 - Expanding tables for length 4 to character count 12
+0:00:00:05 - Trying length 4, fixed @3, character count 12
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 4
+0:00:00:05 - Trying length 8, fixed @7, character count 4
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 12
+0:00:00:05 - Trying length 3, fixed @1, character count 12
+0:00:00:05 - Expanding tables for length 3 to character count 13
+0:00:00:05 - Trying length 3, fixed @3, character count 13
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 13
+0:00:00:05 - Trying length 2, fixed @2, character count 12
+0:00:00:05 - Switching to length 10
+0:00:00:05 - Expanding tables for length 10 to character count 2
+0:00:00:05 - Trying length 10, fixed @3, character count 2
+0:00:00:05 - Switching to length 5
+0:00:00:05 - Expanding tables for length 5 to character count 14
+0:00:00:05 - Trying length 5, fixed @2, character count 10
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @6, character count 11
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 4
+0:00:00:05 - Trying length 8, fixed @8, character count 4
+0:00:00:05 - Trying length 8, fixed @1, character count 4
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 13
+0:00:00:05 - Trying length 2, fixed @2, character count 13
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 13
+0:00:00:05 - Trying length 3, fixed @1, character count 13
+0:00:00:05 - Switching to length 7
+0:00:00:05 - Expanding tables for length 7 to character count 7
+0:00:00:05 - Trying length 7, fixed @6, character count 7
+0:00:00:05 - Switching to length 5
+0:00:00:05 - Expanding tables for length 5 to character count 14
+0:00:00:05 - Trying length 5, fixed @4, character count 13
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 14
+0:00:00:05 - Trying length 2, fixed @1, character count 14
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 14
+0:00:00:05 - Trying length 3, fixed @3, character count 14
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 5
+0:00:00:05 - Trying length 8, fixed @7, character count 5
+0:00:00:05 - Trying length 8, fixed @1, character count 5
+0:00:00:05 - Switching to length 4
+0:00:00:05 - Expanding tables for length 4 to character count 12
+0:00:00:05 - Trying length 4, fixed @2, character count 10
+0:00:00:05 - Switching to length 5
+0:00:00:05 - Expanding tables for length 5 to character count 14
+0:00:00:05 - Trying length 5, fixed @3, character count 13
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 15
+0:00:00:05 - Trying length 2, fixed @1, character count 15
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @2, character count 10
+0:00:00:05 - Switching to length 4
+0:00:00:05 - Expanding tables for length 4 to character count 12
+0:00:00:05 - Trying length 4, fixed @1, character count 11
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @3, character count 11
+0:00:00:05 - Switching to length 4
+0:00:00:05 - Expanding tables for length 4 to character count 12
+0:00:00:05 - Trying length 4, fixed @4, character count 11
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 14
+0:00:00:05 - Trying length 3, fixed @2, character count 9
+0:00:00:05 - Switching to length 7
+0:00:00:05 - Expanding tables for length 7 to character count 7
+0:00:00:05 - Trying length 7, fixed @3, character count 7
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 5
+0:00:00:05 - Trying length 8, fixed @4, character count 4
+0:00:00:05 - Switching to length 5
+0:00:00:05 - Expanding tables for length 5 to character count 14
+0:00:00:05 - Trying length 5, fixed @4, character count 14
+0:00:00:05 - Switching to length 4
+0:00:00:05 - Expanding tables for length 4 to character count 13
+0:00:00:05 - Trying length 4, fixed @3, character count 13
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @1, character count 11
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 15
+0:00:00:05 - Trying length 2, fixed @2, character count 14
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 5
+0:00:00:05 - Trying length 8, fixed @3, character count 4
+0:00:00:05 - Switching to length 3
+0:00:00:05 - Expanding tables for length 3 to character count 15
+0:00:00:05 - Trying length 3, fixed @3, character count 15
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 5
+0:00:00:05 - Trying length 8, fixed @8, character count 5
+0:00:00:05 - Switching to length 7
+0:00:00:05 - Expanding tables for length 7 to character count 7
+0:00:00:05 - Trying length 7, fixed @7, character count 7
+0:00:00:05 - Switching to length 6
+0:00:00:05 - Expanding tables for length 6 to character count 11
+0:00:00:05 - Trying length 6, fixed @4, character count 11
+0:00:00:05 - Switching to length 9
+0:00:00:05 - Expanding tables for length 9 to character count 3
+0:00:00:05 - Trying length 9, fixed @2, character count 3
+0:00:00:05 - Switching to length 8
+0:00:00:05 - Expanding tables for length 8 to character count 5
+0:00:00:05 - Trying length 8, fixed @6, character count 5
+0:00:00:05 - Switching to length 2
+0:00:00:05 - Expanding tables for length 2 to character count 15
+0:00:00:05 - Trying length 2, fixed @2, character count 15
+0:00:00:05 - Expanding tables for length 2 to character count 16
+0:00:00:05 - Trying length 2, fixed @1, character count 16
+0:00:00:05 - Switching to length 7
+0:00:00:06 - Expanding tables for length 7 to character count 7
+0:00:00:06 - Trying length 7, fixed @1, character count 7
+0:00:00:06 + Cracked carol
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 13
+0:00:00:06 - Trying length 4, fixed @2, character count 11
+0:00:00:06 - Switching to length 10
+0:00:00:06 - Expanding tables for length 10 to character count 2
+0:00:00:06 - Trying length 10, fixed @1, character count 2
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 17
+0:00:00:06 - Trying length 2, fixed @1, character count 17
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 13
+0:00:00:06 - Trying length 4, fixed @1, character count 12
+0:00:00:06 - Switching to length 8
+0:00:00:06 - Expanding tables for length 8 to character count 5
+0:00:00:06 - Trying length 8, fixed @3, character count 5
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @6, character count 12
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 13
+0:00:00:06 - Trying length 4, fixed @4, character count 12
+0:00:00:06 - Switching to length 9
+0:00:00:06 - Expanding tables for length 9 to character count 3
+0:00:00:06 - Trying length 9, fixed @8, character count 3
+0:00:00:06 - Switching to length 1
+0:00:00:06 - Expanding tables for length 1 to character count 30
+0:00:00:06 - Trying length 1, fixed @1, character count 30
+0:00:00:06 - Expanding tables for length 1 to character count 31
+0:00:00:06 - Trying length 1, fixed @1, character count 31
+0:00:00:06 - Expanding tables for length 1 to character count 32
+0:00:00:06 - Trying length 1, fixed @1, character count 32
+0:00:00:06 - Expanding tables for length 1 to character count 33
+0:00:00:06 - Trying length 1, fixed @1, character count 33
+0:00:00:06 - Expanding tables for length 1 to character count 34
+0:00:00:06 - Trying length 1, fixed @1, character count 34
+0:00:00:06 - Expanding tables for length 1 to character count 35
+0:00:00:06 - Trying length 1, fixed @1, character count 35
+0:00:00:06 - Expanding tables for length 1 to character count 36
+0:00:00:06 - Trying length 1, fixed @1, character count 36
+0:00:00:06 - Expanding tables for length 1 to character count 37
+0:00:00:06 - Trying length 1, fixed @1, character count 37
+0:00:00:06 - Expanding tables for length 1 to character count 38
+0:00:00:06 - Trying length 1, fixed @1, character count 38
+0:00:00:06 - Expanding tables for length 1 to character count 39
+0:00:00:06 - Trying length 1, fixed @1, character count 39
+0:00:00:06 - Expanding tables for length 1 to character count 40
+0:00:00:06 - Trying length 1, fixed @1, character count 40
+0:00:00:06 - Expanding tables for length 1 to character count 41
+0:00:00:06 - Trying length 1, fixed @1, character count 41
+0:00:00:06 - Expanding tables for length 1 to character count 42
+0:00:00:06 - Trying length 1, fixed @1, character count 42
+0:00:00:06 - Expanding tables for length 1 to character count 43
+0:00:00:06 - Trying length 1, fixed @1, character count 43
+0:00:00:06 - Expanding tables for length 1 to character count 44
+0:00:00:06 - Trying length 1, fixed @1, character count 44
+0:00:00:06 - Expanding tables for length 1 to character count 45
+0:00:00:06 - Trying length 1, fixed @1, character count 45
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 14
+0:00:00:06 - Trying length 5, fixed @2, character count 11
+0:00:00:06 - Switching to length 3
+0:00:00:06 - Expanding tables for length 3 to character count 15
+0:00:00:06 - Trying length 3, fixed @2, character count 10
+0:00:00:06 - Trying length 3, fixed @1, character count 14
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 14
+0:00:00:06 - Trying length 5, fixed @5, character count 12
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 18
+0:00:00:06 - Trying length 2, fixed @1, character count 18
+0:00:00:06 - Switching to length 9
+0:00:00:06 - Expanding tables for length 9 to character count 3
+0:00:00:06 - Trying length 9, fixed @3, character count 3
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @3, character count 12
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 14
+0:00:00:06 - Trying length 5, fixed @3, character count 14
+0:00:00:06 - Switching to length 7
+0:00:00:06 - Expanding tables for length 7 to character count 7
+0:00:00:06 - Trying length 7, fixed @2, character count 7
+0:00:00:06 - Trying length 7, fixed @4, character count 7
+0:00:00:06 - Switching to length 1
+0:00:00:06 - Expanding tables for length 1 to character count 46
+0:00:00:06 - Trying length 1, fixed @1, character count 46
+0:00:00:06 - Expanding tables for length 1 to character count 47
+0:00:00:06 - Trying length 1, fixed @1, character count 47
+0:00:00:06 - Expanding tables for length 1 to character count 48
+0:00:00:06 - Trying length 1, fixed @1, character count 48
+0:00:00:06 - Expanding tables for length 1 to character count 49
+0:00:00:06 - Trying length 1, fixed @1, character count 49
+0:00:00:06 - Expanding tables for length 1 to character count 50
+0:00:00:06 - Trying length 1, fixed @1, character count 50
+0:00:00:06 - Expanding tables for length 1 to character count 51
+0:00:00:06 - Trying length 1, fixed @1, character count 51
+0:00:00:06 - Expanding tables for length 1 to character count 52
+0:00:00:06 - Trying length 1, fixed @1, character count 52
+0:00:00:06 - Expanding tables for length 1 to character count 53
+0:00:00:06 - Trying length 1, fixed @1, character count 53
+0:00:00:06 - Expanding tables for length 1 to character count 54
+0:00:00:06 - Trying length 1, fixed @1, character count 54
+0:00:00:06 - Expanding tables for length 1 to character count 55
+0:00:00:06 - Trying length 1, fixed @1, character count 55
+0:00:00:06 - Expanding tables for length 1 to character count 56
+0:00:00:06 - Trying length 1, fixed @1, character count 56
+0:00:00:06 - Expanding tables for length 1 to character count 57
+0:00:00:06 - Trying length 1, fixed @1, character count 57
+0:00:00:06 - Expanding tables for length 1 to character count 58
+0:00:00:06 - Trying length 1, fixed @1, character count 58
+0:00:00:06 - Expanding tables for length 1 to character count 59
+0:00:00:06 - Trying length 1, fixed @1, character count 59
+0:00:00:06 - Expanding tables for length 1 to character count 60
+0:00:00:06 - Trying length 1, fixed @1, character count 60
+0:00:00:06 - Expanding tables for length 1 to character count 61
+0:00:00:06 - Trying length 1, fixed @1, character count 61
+0:00:00:06 - Expanding tables for length 1 to character count 62
+0:00:00:06 - Trying length 1, fixed @1, character count 62
+0:00:00:06 - Expanding tables for length 1 to character count 63
+0:00:00:06 - Trying length 1, fixed @1, character count 63
+0:00:00:06 - Expanding tables for length 1 to character count 64
+0:00:00:06 - Trying length 1, fixed @1, character count 64
+0:00:00:06 - Expanding tables for length 1 to character count 65
+0:00:00:06 - Trying length 1, fixed @1, character count 65
+0:00:00:06 - Expanding tables for length 1 to character count 66
+0:00:00:06 - Trying length 1, fixed @1, character count 66
+0:00:00:06 - Expanding tables for length 1 to character count 67
+0:00:00:06 - Trying length 1, fixed @1, character count 67
+0:00:00:06 - Expanding tables for length 1 to character count 68
+0:00:00:06 - Trying length 1, fixed @1, character count 68
+0:00:00:06 - Expanding tables for length 1 to character count 69
+0:00:00:06 - Trying length 1, fixed @1, character count 69
+0:00:00:06 - Expanding tables for length 1 to character count 70
+0:00:00:06 - Trying length 1, fixed @1, character count 70
+0:00:00:06 - Expanding tables for length 1 to character count 71
+0:00:00:06 - Trying length 1, fixed @1, character count 71
+0:00:00:06 - Expanding tables for length 1 to character count 72
+0:00:00:06 - Trying length 1, fixed @1, character count 72
+0:00:00:06 - Expanding tables for length 1 to character count 73
+0:00:00:06 - Trying length 1, fixed @1, character count 73
+0:00:00:06 - Expanding tables for length 1 to character count 74
+0:00:00:06 - Trying length 1, fixed @1, character count 74
+0:00:00:06 - Expanding tables for length 1 to character count 75
+0:00:00:06 - Trying length 1, fixed @1, character count 75
+0:00:00:06 - Expanding tables for length 1 to character count 76
+0:00:00:06 - Trying length 1, fixed @1, character count 76
+0:00:00:06 - Expanding tables for length 1 to character count 77
+0:00:00:06 - Trying length 1, fixed @1, character count 77
+0:00:00:06 - Expanding tables for length 1 to character count 78
+0:00:00:06 - Trying length 1, fixed @1, character count 78
+0:00:00:06 - Expanding tables for length 1 to character count 79
+0:00:00:06 - Trying length 1, fixed @1, character count 79
+0:00:00:06 - Expanding tables for length 1 to character count 80
+0:00:00:06 - Trying length 1, fixed @1, character count 80
+0:00:00:06 - Expanding tables for length 1 to character count 81
+0:00:00:06 - Trying length 1, fixed @1, character count 81
+0:00:00:06 - Expanding tables for length 1 to character count 82
+0:00:00:06 - Trying length 1, fixed @1, character count 82
+0:00:00:06 - Expanding tables for length 1 to character count 83
+0:00:00:06 - Trying length 1, fixed @1, character count 83
+0:00:00:06 - Expanding tables for length 1 to character count 84
+0:00:00:06 - Trying length 1, fixed @1, character count 84
+0:00:00:06 - Expanding tables for length 1 to character count 85
+0:00:00:06 - Trying length 1, fixed @1, character count 85
+0:00:00:06 - Expanding tables for length 1 to character count 86
+0:00:00:06 - Trying length 1, fixed @1, character count 86
+0:00:00:06 - Expanding tables for length 1 to character count 87
+0:00:00:06 - Trying length 1, fixed @1, character count 87
+0:00:00:06 - Expanding tables for length 1 to character count 88
+0:00:00:06 - Trying length 1, fixed @1, character count 88
+0:00:00:06 - Expanding tables for length 1 to character count 89
+0:00:00:06 - Trying length 1, fixed @1, character count 89
+0:00:00:06 - Expanding tables for length 1 to character count 90
+0:00:00:06 - Trying length 1, fixed @1, character count 90
+0:00:00:06 - Expanding tables for length 1 to character count 91
+0:00:00:06 - Trying length 1, fixed @1, character count 91
+0:00:00:06 - Expanding tables for length 1 to character count 92
+0:00:00:06 - Trying length 1, fixed @1, character count 92
+0:00:00:06 - Expanding tables for length 1 to character count 93
+0:00:00:06 - Trying length 1, fixed @1, character count 93
+0:00:00:06 - Expanding tables for length 1 to character count 94
+0:00:00:06 - Trying length 1, fixed @1, character count 94
+0:00:00:06 - Expanding tables for length 1 to character count 95
+0:00:00:06 - Trying length 1, fixed @1, character count 95
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 18
+0:00:00:06 - Trying length 2, fixed @2, character count 16
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 15
+0:00:00:06 - Trying length 5, fixed @1, character count 15
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 13
+0:00:00:06 - Trying length 4, fixed @1, character count 13
+0:00:00:06 - Switching to length 10
+0:00:00:06 - Expanding tables for length 10 to character count 2
+0:00:00:06 - Trying length 10, fixed @10, character count 2
+0:00:00:06 - Trying length 10, fixed @8, character count 2
+0:00:00:06 - Switching to length 8
+0:00:00:06 - Expanding tables for length 8 to character count 5
+0:00:00:06 - Trying length 8, fixed @2, character count 5
+0:00:00:06 - Switching to length 3
+0:00:00:06 - Expanding tables for length 3 to character count 15
+0:00:00:06 - Trying length 3, fixed @2, character count 11
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @2, character count 11
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 15
+0:00:00:06 - Trying length 5, fixed @3, character count 15
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @1, character count 12
+0:00:00:06 - Switching to length 7
+0:00:00:06 - Expanding tables for length 7 to character count 7
+0:00:00:06 - Trying length 7, fixed @5, character count 7
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 18
+0:00:00:06 - Trying length 2, fixed @2, character count 17
+0:00:00:06 - Trying length 2, fixed @2, character count 18
+0:00:00:06 - Expanding tables for length 2 to character count 19
+0:00:00:06 - Trying length 2, fixed @1, character count 19
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 13
+0:00:00:06 - Trying length 4, fixed @2, character count 12
+0:00:00:06 - Trying length 4, fixed @4, character count 13
+0:00:00:06 - Switching to length 9
+0:00:00:06 - Expanding tables for length 9 to character count 3
+0:00:00:06 - Trying length 9, fixed @9, character count 3
+0:00:00:06 - Switching to length 5
+0:00:00:06 - Expanding tables for length 5 to character count 16
+0:00:00:06 - Trying length 5, fixed @1, character count 16
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @5, character count 12
+0:00:00:06 - Switching to length 4
+0:00:00:06 - Expanding tables for length 4 to character count 14
+0:00:00:06 - Trying length 4, fixed @3, character count 14
+0:00:00:06 - Switching to length 8
+0:00:00:06 - Expanding tables for length 8 to character count 5
+0:00:00:06 - Trying length 8, fixed @5, character count 5
+0:00:00:06 - Switching to length 9
+0:00:00:06 - Expanding tables for length 9 to character count 3
+0:00:00:06 - Trying length 9, fixed @7, character count 3
+0:00:00:06 - Switching to length 3
+0:00:00:06 - Expanding tables for length 3 to character count 15
+0:00:00:06 - Trying length 3, fixed @1, character count 15
+0:00:00:06 - Switching to length 8
+0:00:00:06 - Expanding tables for length 8 to character count 5
+0:00:00:06 - Trying length 8, fixed @4, character count 5
+0:00:00:06 - Switching to length 9
+0:00:00:06 - Expanding tables for length 9 to character count 3
+0:00:00:06 - Trying length 9, fixed @1, character count 3
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 19
+0:00:00:06 - Trying length 2, fixed @2, character count 19
+0:00:00:06 - Switching to length 6
+0:00:00:06 - Expanding tables for length 6 to character count 12
+0:00:00:06 - Trying length 6, fixed @4, character count 12
+0:00:00:06 - Switching to length 2
+0:00:00:06 - Expanding tables for length 2 to character count 20
+0:00:00:06 - Trying length 2, fixed @1, character count 20
+0:00:00:06 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 13
+0:00:00:07 - Trying length 6, fixed @6, character count 13
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 14
+0:00:00:07 - Trying length 4, fixed @1, character count 14
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 16
+0:00:00:07 - Trying length 5, fixed @5, character count 13
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 16
+0:00:00:07 - Trying length 3, fixed @3, character count 16
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 16
+0:00:00:07 - Trying length 5, fixed @3, character count 16
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @6, character count 8
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 15
+0:00:00:07 - Trying length 4, fixed @3, character count 15
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 20
+0:00:00:07 - Trying length 2, fixed @2, character count 20
+0:00:00:07 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 13
+0:00:00:07 - Trying length 6, fixed @3, character count 13
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 21
+0:00:00:07 - Trying length 2, fixed @2, character count 21
+0:00:00:07 - Switching to length 9
+0:00:00:07 - Expanding tables for length 9 to character count 3
+0:00:00:07 - Trying length 9, fixed @4, character count 3
+0:00:00:07 - Switching to length 10
+0:00:00:07 - Expanding tables for length 10 to character count 2
+0:00:00:07 - Trying length 10, fixed @5, character count 2
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @3, character count 8
+0:00:00:07 - Switching to length 11
+0:00:00:07 - Expanding tables for length 11 to character count 1
+0:00:00:07 - Trying length 11, fixed @1, character count 1
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 16
+0:00:00:07 - Trying length 5, fixed @4, character count 15
+0:00:00:07 - Expanding tables for length 5 to character count 17
+0:00:00:07 - Trying length 5, fixed @1, character count 17
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 15
+0:00:00:07 - Trying length 4, fixed @2, character count 13
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 16
+0:00:00:07 - Trying length 3, fixed @2, character count 12
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 15
+0:00:00:07 - Trying length 4, fixed @4, character count 14
+0:00:00:07 - Switching to length 9
+0:00:00:07 - Expanding tables for length 9 to character count 3
+0:00:00:07 - Trying length 9, fixed @6, character count 3
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 22
+0:00:00:07 - Trying length 2, fixed @2, character count 22
+0:00:00:07 - Expanding tables for length 2 to character count 23
+0:00:00:07 - Trying length 2, fixed @2, character count 23
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @1, character count 8
+0:00:00:07 - Switching to length 10
+0:00:00:07 - Expanding tables for length 10 to character count 2
+0:00:00:07 - Trying length 10, fixed @4, character count 2
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 15
+0:00:00:07 - Trying length 4, fixed @1, character count 15
+0:00:00:07 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 13
+0:00:00:07 - Trying length 6, fixed @2, character count 12
+0:00:00:07 - Trying length 6, fixed @1, character count 13
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 16
+0:00:00:07 - Trying length 3, fixed @1, character count 16
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 15
+0:00:00:07 - Trying length 4, fixed @4, character count 15
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 17
+0:00:00:07 - Trying length 3, fixed @3, character count 17
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @7, character count 8
+0:00:00:07 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 13
+0:00:00:07 - Trying length 6, fixed @5, character count 13
+0:00:00:07 - Expanding tables for length 6 to character count 14
+0:00:00:07 - Trying length 6, fixed @6, character count 14
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @4, character count 8
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 16
+0:00:00:07 - Trying length 4, fixed @3, character count 16
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 17
+0:00:00:07 - Trying length 5, fixed @2, character count 12
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 24
+0:00:00:07 - Trying length 2, fixed @2, character count 24
+0:00:00:07 - Expanding tables for length 2 to character count 25
+0:00:00:07 - Trying length 2, fixed @2, character count 25
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 17
+0:00:00:07 - Trying length 3, fixed @2, character count 13
+0:00:00:07 - Trying length 3, fixed @1, character count 17
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 16
+0:00:00:07 - Trying length 4, fixed @4, character count 16
+0:00:00:07 - Switching to length 9
+0:00:00:07 - Expanding tables for length 9 to character count 3
+0:00:00:07 - Trying length 9, fixed @5, character count 3
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 26
+0:00:00:07 - Trying length 2, fixed @2, character count 26
+0:00:00:07 - Switching to length 8
+0:00:00:07 - Expanding tables for length 8 to character count 6
+0:00:00:07 - Trying length 8, fixed @1, character count 6
+0:00:00:07 - Switching to length 2
+0:00:00:07 - Expanding tables for length 2 to character count 27
+0:00:00:07 - Trying length 2, fixed @2, character count 27
+0:00:00:07 - Expanding tables for length 2 to character count 28
+0:00:00:07 - Trying length 2, fixed @2, character count 28
+0:00:00:07 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 14
+0:00:00:07 - Trying length 6, fixed @4, character count 13
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 17
+0:00:00:07 - Trying length 5, fixed @5, character count 14
+0:00:00:07 - Switching to length 3
+0:00:00:07 - Expanding tables for length 3 to character count 18
+0:00:00:07 - Trying length 3, fixed @1, character count 18
+0:00:00:07 - Switching to length 5
+0:00:00:07 - Expanding tables for length 5 to character count 17
+0:00:00:07 - Trying length 5, fixed @4, character count 16
+0:00:00:07 - Switching to length 7
+0:00:00:07 - Expanding tables for length 7 to character count 8
+0:00:00:07 - Trying length 7, fixed @5, character count 8
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 16
+0:00:00:07 - Trying length 4, fixed @2, character count 14
+0:00:00:07 - Switching to length 6
+0:00:00:07 - Expanding tables for length 6 to character count 15
+0:00:00:07 - Trying length 6, fixed @6, character count 15
+0:00:00:07 - Switching to length 4
+0:00:00:07 - Expanding tables for length 4 to character count 17
+0:00:00:07 - Trying length 4, fixed @3, character count 17
+0:00:00:07 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @6, character count 6
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 17
+0:00:00:08 - Trying length 5, fixed @3, character count 17
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 29
+0:00:00:08 - Trying length 2, fixed @2, character count 29
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 18
+0:00:00:08 - Trying length 3, fixed @2, character count 14
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 30
+0:00:00:08 - Trying length 2, fixed @2, character count 30
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 18
+0:00:00:08 - Trying length 3, fixed @3, character count 18
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 31
+0:00:00:08 - Trying length 2, fixed @2, character count 31
+0:00:00:08 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @7, character count 6
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 19
+0:00:00:08 - Trying length 3, fixed @1, character count 19
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 17
+0:00:00:08 - Trying length 5, fixed @4, character count 17
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 15
+0:00:00:08 - Trying length 6, fixed @3, character count 14
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 17
+0:00:00:08 - Trying length 4, fixed @1, character count 16
+0:00:00:08 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @3, character count 6
+0:00:00:08 - Switching to length 7
+0:00:00:08 - Expanding tables for length 7 to character count 8
+0:00:00:08 - Trying length 7, fixed @2, character count 8
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 17
+0:00:00:08 - Trying length 4, fixed @4, character count 17
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 18
+0:00:00:08 - Trying length 5, fixed @3, character count 18
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 19
+0:00:00:08 - Trying length 3, fixed @3, character count 19
+0:00:00:08 - Expanding tables for length 3 to character count 20
+0:00:00:08 - Trying length 3, fixed @1, character count 20
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 18
+0:00:00:08 - Trying length 4, fixed @3, character count 18
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 15
+0:00:00:08 - Trying length 6, fixed @1, character count 14
+0:00:00:08 - Switching to length 7
+0:00:00:08 - Expanding tables for length 7 to character count 9
+0:00:00:08 - Trying length 7, fixed @6, character count 9
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 15
+0:00:00:08 - Trying length 6, fixed @4, character count 14
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 18
+0:00:00:08 - Trying length 5, fixed @1, character count 18
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 31
+0:00:00:08 - Trying length 2, fixed @1, character count 21
+0:00:00:08 - Trying length 2, fixed @1, character count 22
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 20
+0:00:00:08 - Trying length 3, fixed @3, character count 20
+0:00:00:08 - Expanding tables for length 3 to character count 21
+0:00:00:08 - Trying length 3, fixed @1, character count 21
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 18
+0:00:00:08 - Trying length 4, fixed @4, character count 18
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 32
+0:00:00:08 - Trying length 2, fixed @2, character count 32
+0:00:00:08 - Switching to length 7
+0:00:00:08 - Expanding tables for length 7 to character count 9
+0:00:00:08 - Trying length 7, fixed @3, character count 9
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 15
+0:00:00:08 - Trying length 6, fixed @5, character count 14
+0:00:00:08 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @2, character count 6
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 18
+0:00:00:08 - Trying length 5, fixed @5, character count 15
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 16
+0:00:00:08 - Trying length 6, fixed @6, character count 16
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 19
+0:00:00:08 - Trying length 4, fixed @4, character count 19
+0:00:00:08 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @4, character count 6
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 18
+0:00:00:08 - Trying length 5, fixed @4, character count 18
+0:00:00:08 - Switching to length 2
+0:00:00:08 - Expanding tables for length 2 to character count 32
+0:00:00:08 - Trying length 2, fixed @1, character count 23
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 16
+0:00:00:08 - Trying length 6, fixed @2, character count 13
+0:00:00:08 - Switching to length 5
+0:00:00:08 - Expanding tables for length 5 to character count 19
+0:00:00:08 - Trying length 5, fixed @3, character count 19
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 19
+0:00:00:08 - Trying length 4, fixed @2, character count 15
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 21
+0:00:00:08 - Trying length 3, fixed @2, character count 15
+0:00:00:08 - Switching to length 4
+0:00:00:08 - Expanding tables for length 4 to character count 19
+0:00:00:08 - Trying length 4, fixed @3, character count 19
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 21
+0:00:00:08 - Trying length 3, fixed @3, character count 21
+0:00:00:08 - Switching to length 7
+0:00:00:08 - Expanding tables for length 7 to character count 9
+0:00:00:08 - Trying length 7, fixed @1, character count 9
+0:00:00:08 - Switching to length 6
+0:00:00:08 - Expanding tables for length 6 to character count 16
+0:00:00:08 - Trying length 6, fixed @3, character count 15
+0:00:00:08 - Switching to length 8
+0:00:00:08 - Expanding tables for length 8 to character count 6
+0:00:00:08 - Trying length 8, fixed @8, character count 6
+0:00:00:08 - Switching to length 3
+0:00:00:08 - Expanding tables for length 3 to character count 22
+0:00:00:08 - Trying length 3, fixed @3, character count 22
+0:00:00:08 - Switching to length 10
+0:00:00:08 - Expanding tables for length 10 to character count 3
+0:00:00:09 - Trying length 10, fixed @2, character count 3
+0:00:00:09 - Switching to length 7
+0:00:00:09 - Expanding tables for length 7 to character count 9
+0:00:00:09 - Trying length 7, fixed @4, character count 9
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 20
+0:00:00:09 - Trying length 4, fixed @4, character count 20
+0:00:00:09 - Switching to length 2
+0:00:00:09 - Expanding tables for length 2 to character count 32
+0:00:00:09 - Trying length 2, fixed @1, character count 24
+0:00:00:09 - Trying length 2, fixed @1, character count 25
+0:00:00:09 - Trying length 2, fixed @1, character count 26
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 23
+0:00:00:09 - Trying length 3, fixed @3, character count 23
+0:00:00:09 - Switching to length 9
+0:00:00:09 - Expanding tables for length 9 to character count 4
+0:00:00:09 - Trying length 9, fixed @2, character count 4
+0:00:00:09 - Switching to length 2
+0:00:00:09 - Expanding tables for length 2 to character count 32
+0:00:00:09 - Trying length 2, fixed @1, character count 27
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 19
+0:00:00:09 - Trying length 5, fixed @2, character count 13
+0:00:00:09 - Switching to length 6
+0:00:00:09 - Expanding tables for length 6 to character count 16
+0:00:00:09 - Trying length 6, fixed @1, character count 15
+0:00:00:09 - Trying length 6, fixed @4, character count 15
+0:00:00:09 - Switching to length 8
+0:00:00:09 - Expanding tables for length 8 to character count 6
+0:00:00:09 - Trying length 8, fixed @5, character count 6
+0:00:00:09 - Switching to length 2
+0:00:00:09 - Expanding tables for length 2 to character count 33
+0:00:00:09 - Trying length 2, fixed @2, character count 33
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 19
+0:00:00:09 - Trying length 5, fixed @5, character count 16
+0:00:00:09 - Switching to length 7
+0:00:00:09 - Expanding tables for length 7 to character count 9
+0:00:00:09 - Trying length 7, fixed @7, character count 9
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 19
+0:00:00:09 - Trying length 5, fixed @1, character count 19
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 20
+0:00:00:09 - Trying length 4, fixed @2, character count 16
+0:00:00:09 - Switching to length 6
+0:00:00:09 - Expanding tables for length 6 to character count 16
+0:00:00:09 - Trying length 6, fixed @5, character count 15
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 20
+0:00:00:09 - Trying length 4, fixed @1, character count 17
+0:00:00:09 - Trying length 4, fixed @3, character count 20
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 23
+0:00:00:09 - Trying length 3, fixed @2, character count 16
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 19
+0:00:00:09 - Trying length 5, fixed @4, character count 19
+0:00:00:09 - Switching to length 7
+0:00:00:09 - Expanding tables for length 7 to character count 9
+0:00:00:09 - Trying length 7, fixed @5, character count 9
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 21
+0:00:00:09 - Trying length 4, fixed @4, character count 21
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 23
+0:00:00:09 - Trying length 3, fixed @1, character count 22
+0:00:00:09 - Expanding tables for length 3 to character count 24
+0:00:00:09 - Trying length 3, fixed @3, character count 24
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 20
+0:00:00:09 - Trying length 5, fixed @3, character count 20
+0:00:00:09 - Switching to length 9
+0:00:00:09 - Expanding tables for length 9 to character count 4
+0:00:00:09 - Trying length 9, fixed @8, character count 4
+0:00:00:09 - Switching to length 2
+0:00:00:09 - Expanding tables for length 2 to character count 33
+0:00:00:09 - Trying length 2, fixed @1, character count 28
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 21
+0:00:00:09 - Trying length 4, fixed @3, character count 21
+0:00:00:09 - Switching to length 2
+0:00:00:09 - Expanding tables for length 2 to character count 33
+0:00:00:09 - Trying length 2, fixed @1, character count 29
+0:00:00:09 - Switching to length 6
+0:00:00:09 - Expanding tables for length 6 to character count 16
+0:00:00:09 - Trying length 6, fixed @2, character count 14
+0:00:00:09 - Switching to length 7
+0:00:00:09 - Expanding tables for length 7 to character count 10
+0:00:00:09 - Trying length 7, fixed @3, character count 10
+0:00:00:09 - Switching to length 9
+0:00:00:09 - Expanding tables for length 9 to character count 4
+0:00:00:09 - Trying length 9, fixed @1, character count 4
+0:00:00:09 - Expanding tables for length 9 to character count 5
+0:00:00:09 - Trying length 9, fixed @1, character count 5
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 24
+0:00:00:09 - Trying length 3, fixed @2, character count 17
+0:00:00:09 - Switching to length 10
+0:00:00:09 - Expanding tables for length 10 to character count 3
+0:00:00:09 - Trying length 10, fixed @9, character count 3
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 25
+0:00:00:09 - Trying length 3, fixed @3, character count 25
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 20
+0:00:00:09 - Trying length 5, fixed @2, character count 14
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 21
+0:00:00:09 - Trying length 4, fixed @2, character count 17
+0:00:00:09 - Switching to length 6
+0:00:00:09 - Expanding tables for length 6 to character count 16
+0:00:00:09 - Trying length 6, fixed @4, character count 16
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 21
+0:00:00:09 - Trying length 4, fixed @1, character count 18
+0:00:00:09 - Switching to length 5
+0:00:00:09 - Expanding tables for length 5 to character count 20
+0:00:00:09 - Trying length 5, fixed @5, character count 17
+0:00:00:09 - Trying length 5, fixed @4, character count 20
+0:00:00:09 - Switching to length 7
+0:00:00:09 - Expanding tables for length 7 to character count 10
+0:00:00:09 - Trying length 7, fixed @1, character count 10
+0:00:00:09 - Switching to length 9
+0:00:00:09 - Expanding tables for length 9 to character count 5
+0:00:00:09 - Trying length 9, fixed @7, character count 4
+0:00:00:09 - Switching to length 4
+0:00:00:09 - Expanding tables for length 4 to character count 22
+0:00:00:09 - Trying length 4, fixed @4, character count 22
+0:00:00:09 - Switching to length 10
+0:00:00:09 - Expanding tables for length 10 to character count 3
+0:00:00:09 - Trying length 10, fixed @7, character count 3
+0:00:00:09 - Switching to length 3
+0:00:00:09 - Expanding tables for length 3 to character count 25
+0:00:00:09 - Trying length 3, fixed @2, character count 18
+0:00:00:09 - Expanding tables for length 3 to character count 26
+0:00:00:09 - Trying length 3, fixed @3, character count 26
+0:00:00:09 - Switching to length 9
+0:00:00:10 - Expanding tables for length 9 to character count 5
+0:00:00:10 - Trying length 9, fixed @3, character count 4
+0:00:00:10 - Switching to length 8
+0:00:00:10 - Expanding tables for length 8 to character count 7
+0:00:00:10 - Trying length 8, fixed @3, character count 7
+0:00:00:10 - Switching to length 5
+0:00:00:10 - Expanding tables for length 5 to character count 21
+0:00:00:10 - Trying length 5, fixed @3, character count 21
+0:00:00:10 - Switching to length 6
+0:00:00:10 - Expanding tables for length 6 to character count 16
+0:00:00:10 - Trying length 6, fixed @2, character count 15
+0:00:00:10 - Switching to length 3
+0:00:00:10 - Expanding tables for length 3 to character count 27
+0:00:00:10 - Trying length 3, fixed @3, character count 27
+0:00:00:10 - Switching to length 10
+0:00:00:10 - Expanding tables for length 10 to character count 3
+0:00:00:10 - Trying length 10, fixed @3, character count 3
+0:00:00:10 - Switching to length 6
+0:00:00:10 - Expanding tables for length 6 to character count 17
+0:00:00:10 - Trying length 6, fixed @6, character count 17
+0:00:00:10 - Switching to length 5
+0:00:00:10 - Expanding tables for length 5 to character count 21
+0:00:00:10 - Trying length 5, fixed @4, character count 21
+0:00:00:10 - Switching to length 3
+0:00:00:10 - Expanding tables for length 3 to character count 28
+0:00:00:10 - Trying length 3, fixed @3, character count 28
+0:00:00:10 - Switching to length 6
+0:00:00:10 - Expanding tables for length 6 to character count 17
+0:00:00:10 - Trying length 6, fixed @4, character count 17
+0:00:00:10 - Switching to length 7
+0:00:00:10 - Expanding tables for length 7 to character count 10
+0:00:00:10 - Trying length 7, fixed @7, character count 10
+0:00:00:10 - Switching to length 4
+0:00:00:10 - Expanding tables for length 4 to character count 22
+0:00:00:10 - Trying length 4, fixed @2, character count 18
+0:00:00:10 - Trying length 4, fixed @1, character count 19
+0:00:00:10 - Switching to length 8
+0:00:00:10 - Expanding tables for length 8 to character count 7
+0:00:00:10 - Trying length 8, fixed @1, character count 7
+0:00:00:10 - Switching to length 4
+0:00:00:10 - Expanding tables for length 4 to character count 22
+0:00:00:10 - Trying length 4, fixed @3, character count 22
+0:00:00:10 - Switching to length 9
+0:00:00:10 - Expanding tables for length 9 to character count 5
+0:00:00:10 - Trying length 9, fixed @9, character count 4
+0:00:00:10 - Switching to length 7
+0:00:00:10 - Expanding tables for length 7 to character count 10
+0:00:00:10 - Trying length 7, fixed @5, character count 10
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 33
+0:00:00:10 - Trying length 2, fixed @1, character count 30
+0:00:00:10 - Switching to length 9
+0:00:00:10 - Expanding tables for length 9 to character count 5
+0:00:00:10 - Trying length 9, fixed @6, character count 4
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 33
+0:00:00:10 - Trying length 2, fixed @1, character count 31
+0:00:00:10 - Trying length 2, fixed @1, character count 32
+0:00:00:10 - Switching to length 9
+0:00:00:10 - Expanding tables for length 9 to character count 5
+0:00:00:10 - Trying length 9, fixed @3, character count 5
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 33
+0:00:00:10 - Trying length 2, fixed @1, character count 33
+0:00:00:10 - Switching to length 3
+0:00:00:10 - Expanding tables for length 3 to character count 28
+0:00:00:10 - Trying length 3, fixed @1, character count 23
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 34
+0:00:00:10 - Trying length 2, fixed @1, character count 34
+0:00:00:10 - Switching to length 6
+0:00:00:10 - Expanding tables for length 6 to character count 17
+0:00:00:10 - Trying length 6, fixed @1, character count 16
+0:00:00:10 - Switching to length 8
+0:00:00:10 - Expanding tables for length 8 to character count 7
+0:00:00:10 - Trying length 8, fixed @6, character count 7
+0:00:00:10 - Switching to length 4
+0:00:00:10 - Expanding tables for length 4 to character count 22
+0:00:00:10 - Trying length 4, fixed @1, character count 20
+0:00:00:10 - Switching to length 9
+0:00:00:10 - Expanding tables for length 9 to character count 5
+0:00:00:10 - Trying length 9, fixed @6, character count 5
+0:00:00:10 - Switching to length 7
+0:00:00:10 - Expanding tables for length 7 to character count 10
+0:00:00:10 - Trying length 7, fixed @4, character count 10
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 34
+0:00:00:10 - Trying length 2, fixed @2, character count 34
+0:00:00:10 - Expanding tables for length 2 to character count 35
+0:00:00:10 - Trying length 2, fixed @2, character count 35
+0:00:00:10 - Expanding tables for length 2 to character count 36
+0:00:00:10 - Trying length 2, fixed @2, character count 36
+0:00:00:10 - Switching to length 8
+0:00:00:10 - Expanding tables for length 8 to character count 7
+0:00:00:10 - Trying length 8, fixed @7, character count 7
+0:00:00:10 - Switching to length 5
+0:00:00:10 - Expanding tables for length 5 to character count 21
+0:00:00:10 - Trying length 5, fixed @5, character count 18
+0:00:00:10 - Switching to length 2
+0:00:00:10 - Expanding tables for length 2 to character count 37
+0:00:00:10 - Trying length 2, fixed @2, character count 37
+0:00:00:10 - Switching to length 10
+0:00:00:10 - Expanding tables for length 10 to character count 3
+0:00:00:11 - Trying length 10, fixed @10, character count 3
+0:00:00:11 - Switching to length 4
+0:00:00:11 - Expanding tables for length 4 to character count 23
+0:00:00:11 - Trying length 4, fixed @3, character count 23
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @4, character count 22
+0:00:00:11 - Switching to length 6
+0:00:00:11 - Expanding tables for length 6 to character count 17
+0:00:00:11 - Trying length 6, fixed @3, character count 16
+0:00:00:11 - Expanding tables for length 6 to character count 18
+0:00:00:11 - Trying length 6, fixed @4, character count 18
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @3, character count 22
+0:00:00:11 - Switching to length 4
+0:00:00:11 - Expanding tables for length 4 to character count 23
+0:00:00:11 - Trying length 4, fixed @4, character count 23
+0:00:00:11 - Switching to length 3
+0:00:00:11 - Expanding tables for length 3 to character count 28
+0:00:00:11 - Trying length 3, fixed @2, character count 19
+0:00:00:11 - Switching to length 10
+0:00:00:11 - Expanding tables for length 10 to character count 3
+0:00:00:11 - Trying length 10, fixed @8, character count 3
+0:00:00:11 - Switching to length 7
+0:00:00:11 - Expanding tables for length 7 to character count 10
+0:00:00:11 - Trying length 7, fixed @6, character count 10
+0:00:00:11 - Switching to length 4
+0:00:00:11 - Expanding tables for length 4 to character count 23
+0:00:00:11 - Trying length 4, fixed @1, character count 21
+0:00:00:11 - Switching to length 6
+0:00:00:11 - Expanding tables for length 6 to character count 18
+0:00:00:11 - Trying length 6, fixed @5, character count 16
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @2, character count 15
+0:00:00:11 - Switching to length 3
+0:00:00:11 - Expanding tables for length 3 to character count 28
+0:00:00:11 - Trying length 3, fixed @2, character count 20
+0:00:00:11 - Trying length 3, fixed @1, character count 24
+0:00:00:11 - Switching to length 7
+0:00:00:11 - Expanding tables for length 7 to character count 11
+0:00:00:11 - Trying length 7, fixed @3, character count 11
+0:00:00:11 - Switching to length 3
+0:00:00:11 - Expanding tables for length 3 to character count 29
+0:00:00:11 - Trying length 3, fixed @3, character count 29
+0:00:00:11 - Switching to length 12
+0:00:00:11 - Expanding tables for length 12 to character count 1
+0:00:00:11 - Trying length 12, fixed @1, character count 1
+0:00:00:11 - Switching to length 6
+0:00:00:11 - Expanding tables for length 6 to character count 18
+0:00:00:11 - Trying length 6, fixed @2, character count 16
+0:00:00:11 - Switching to length 8
+0:00:00:11 - Expanding tables for length 8 to character count 7
+0:00:00:11 - Trying length 8, fixed @2, character count 7
+0:00:00:11 - Trying length 8, fixed @8, character count 7
+0:00:00:11 - Switching to length 4
+0:00:00:11 - Expanding tables for length 4 to character count 23
+0:00:00:11 - Trying length 4, fixed @1, character count 22
+0:00:00:11 - Switching to length 9
+0:00:00:11 - Expanding tables for length 9 to character count 5
+0:00:00:11 - Trying length 9, fixed @4, character count 4
+0:00:00:11 - Trying length 9, fixed @2, character count 5
+0:00:00:11 - Switching to length 7
+0:00:00:11 - Expanding tables for length 7 to character count 11
+0:00:00:11 - Trying length 7, fixed @1, character count 11
+0:00:00:11 - Switching to length 8
+0:00:00:11 - Expanding tables for length 8 to character count 7
+0:00:00:11 - Trying length 8, fixed @4, character count 7
+0:00:00:11 - Switching to length 11
+0:00:00:11 - Expanding tables for length 11 to character count 2
+0:00:00:11 - Trying length 11, fixed @2, character count 2
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @2, character count 16
+0:00:00:11 - Switching to length 6
+0:00:00:11 - Expanding tables for length 6 to character count 19
+0:00:00:11 - Trying length 6, fixed @4, character count 19
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @5, character count 19
+0:00:00:11 - Switching to length 4
+0:00:00:11 - Expanding tables for length 4 to character count 24
+0:00:00:11 - Trying length 4, fixed @3, character count 24
+0:00:00:11 - Switching to length 2
+0:00:00:11 - Expanding tables for length 2 to character count 37
+0:00:00:11 - Trying length 2, fixed @1, character count 35
+0:00:00:11 - Switching to length 9
+0:00:00:11 - Expanding tables for length 9 to character count 5
+0:00:00:11 - Trying length 9, fixed @9, character count 5
+0:00:00:11 - Switching to length 3
+0:00:00:11 - Expanding tables for length 3 to character count 29
+0:00:00:11 - Trying length 3, fixed @2, character count 21
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 22
+0:00:00:11 - Trying length 5, fixed @1, character count 20
+0:00:00:11 - Switching to length 2
+0:00:00:11 - Expanding tables for length 2 to character count 37
+0:00:00:11 - Trying length 2, fixed @1, character count 36
+0:00:00:11 - Trying length 2, fixed @1, character count 37
+0:00:00:11 - Expanding tables for length 2 to character count 38
+0:00:00:11 - Trying length 2, fixed @1, character count 38
+0:00:00:11 - Switching to length 5
+0:00:00:11 - Expanding tables for length 5 to character count 23
+0:00:00:11 - Trying length 5, fixed @4, character count 23
+0:00:00:11 - Switching to length 6
+0:00:00:12 - Expanding tables for length 6 to character count 19
+0:00:00:12 - Trying length 6, fixed @3, character count 17
+0:00:00:12 - Switching to length 8
+0:00:00:12 - Expanding tables for length 8 to character count 7
+0:00:00:12 - Trying length 8, fixed @5, character count 7
+0:00:00:12 - Switching to length 3
+0:00:00:12 - Expanding tables for length 3 to character count 30
+0:00:00:12 - Trying length 3, fixed @3, character count 30
+0:00:00:12 - Switching to length 2
+0:00:00:12 - Expanding tables for length 2 to character count 38
+0:00:00:12 - Trying length 2, fixed @2, character count 38
+0:00:00:12 - Expanding tables for length 2 to character count 39
+0:00:00:12 - Trying length 2, fixed @1, character count 39
+0:00:00:12 - Switching to length 9
+0:00:00:12 - Expanding tables for length 9 to character count 5
+0:00:00:12 - Trying length 9, fixed @8, character count 5
+0:00:00:12 - Switching to length 3
+0:00:00:12 - Expanding tables for length 3 to character count 31
+0:00:00:12 - Trying length 3, fixed @3, character count 31
+0:00:00:12 - Switching to length 4
+0:00:00:12 - Expanding tables for length 4 to character count 24
+0:00:00:12 - Trying length 4, fixed @1, character count 23
+0:00:00:12 - Switching to length 6
+0:00:00:12 - Expanding tables for length 6 to character count 19
+0:00:00:12 - Trying length 6, fixed @1, character count 17
+0:00:00:12 - Switching to length 10
+0:00:00:12 - Expanding tables for length 10 to character count 3
+0:00:00:12 - Trying length 10, fixed @1, character count 3
+0:00:00:12 - Switching to length 2
+0:00:00:12 - Expanding tables for length 2 to character count 39
+0:00:00:12 - Trying length 2, fixed @2, character count 39
+0:00:00:12 - Expanding tables for length 2 to character count 40
+0:00:00:12 - Trying length 2, fixed @1, character count 40
+0:00:00:12 - Switching to length 10
+0:00:00:12 - Expanding tables for length 10 to character count 3
+0:00:00:12 - Trying length 10, fixed @4, character count 3
+0:00:00:12 - Switching to length 7
+0:00:00:12 - Expanding tables for length 7 to character count 11
+0:00:00:12 - Trying length 7, fixed @2, character count 9
+0:00:00:12 - Switching to length 2
+0:00:00:12 - Expanding tables for length 2 to character count 40
+0:00:00:12 - Trying length 2, fixed @2, character count 40
+0:00:00:12 - Switching to length 4
+0:00:00:12 - Expanding tables for length 4 to character count 24
+0:00:00:12 - Trying length 4, fixed @4, character count 24
+0:00:00:12 - Switching to length 7
+0:00:00:12 - Expanding tables for length 7 to character count 11
+0:00:00:12 - Trying length 7, fixed @7, character count 11
+0:00:00:12 - Switching to length 6
+0:00:00:12 - Expanding tables for length 6 to character count 19
+0:00:00:12 - Trying length 6, fixed @5, character count 17
+0:00:00:12 - Switching to length 5
+0:00:00:12 - Expanding tables for length 5 to character count 23
+0:00:00:12 - Trying length 5, fixed @5, character count 20
+0:00:00:12 - Switching to length 3
+0:00:00:12 - Expanding tables for length 3 to character count 31
+0:00:00:12 - Trying length 3, fixed @1, character count 25
+0:00:00:12 - Expanding tables for length 3 to character count 32
+0:00:00:12 - Trying length 3, fixed @3, character count 32
+0:00:00:12 - Switching to length 5
+0:00:00:12 - Expanding tables for length 5 to character count 23
+0:00:00:12 - Trying length 5, fixed @1, character count 21
+0:00:00:12 - Switching to length 9
+0:00:00:12 - Expanding tables for length 9 to character count 5
+0:00:00:12 - Trying length 9, fixed @7, character count 5
+0:00:00:12 - Switching to length 4
+0:00:00:12 - Expanding tables for length 4 to character count 24
+0:00:00:12 - Trying length 4, fixed @2, character count 19
+0:00:00:12 - Expanding tables for length 4 to character count 25
+0:00:00:12 - Trying length 4, fixed @3, character count 25
+0:00:00:12 - Switching to length 11
+0:00:00:12 - Expanding tables for length 11 to character count 2
+0:00:00:12 - Trying length 11, fixed @10, character count 2
+0:00:00:12 - Switching to length 5
+0:00:00:12 - Expanding tables for length 5 to character count 23
+0:00:00:12 - Trying length 5, fixed @3, character count 23
+0:00:00:12 - Switching to length 7
+0:00:00:12 - Expanding tables for length 7 to character count 11
+0:00:00:12 - Trying length 7, fixed @5, character count 11
+0:00:00:12 - Switching to length 3
+0:00:00:12 - Expanding tables for length 3 to character count 33
+0:00:00:12 - Trying length 3, fixed @3, character count 33
+0:00:00:12 - Switching to length 11
+0:00:00:12 - Expanding tables for length 11 to character count 2
+0:00:00:12 - Trying length 11, fixed @6, character count 2
+0:00:00:12 - Trying length 11, fixed @3, character count 2
+0:00:00:12 - Switching to length 6
+0:00:00:12 - Expanding tables for length 6 to character count 19
+0:00:00:12 - Trying length 6, fixed @2, character count 17
+0:00:00:12 - Expanding tables for length 6 to character count 20
+0:00:00:12 - Trying length 6, fixed @4, character count 20
+0:00:00:12 - Switching to length 5
+0:00:00:12 - Expanding tables for length 5 to character count 24
+0:00:00:12 - Trying length 5, fixed @4, character count 24
+0:00:00:12 - Switching to length 4
+0:00:00:12 - Expanding tables for length 4 to character count 25
+0:00:00:12 - Trying length 4, fixed @1, character count 24
+0:00:00:12 - Expanding tables for length 4 to character count 26
+0:00:00:12 - Trying length 4, fixed @3, character count 26
+0:00:00:12 - Switching to length 9
+0:00:00:13 - Expanding tables for length 9 to character count 5
+0:00:00:13 - Trying length 9, fixed @4, character count 5
+0:00:00:13 - Switching to length 7
+0:00:00:13 - Expanding tables for length 7 to character count 11
+0:00:00:13 - Trying length 7, fixed @4, character count 11
+0:00:00:13 - Switching to length 3
+0:00:00:13 - Expanding tables for length 3 to character count 33
+0:00:00:13 - Trying length 3, fixed @2, character count 22
+0:00:00:13 - Switching to length 11
+0:00:00:13 - Expanding tables for length 11 to character count 2
+0:00:00:13 - Trying length 11, fixed @1, character count 2
+0:00:00:13 - Switching to length 10
+0:00:00:13 - Expanding tables for length 10 to character count 3
+0:00:00:13 - Trying length 10, fixed @5, character count 3
+0:00:00:13 - Switching to length 6
+0:00:00:13 - Expanding tables for length 6 to character count 20
+0:00:00:13 - Trying length 6, fixed @1, character count 18
+0:00:00:13 - Switching to length 10
+0:00:00:13 - Expanding tables for length 10 to character count 3
+0:00:00:13 - Trying length 10, fixed @6, character count 3
+0:00:00:13 - Switching to length 3
+0:00:00:13 - Expanding tables for length 3 to character count 33
+0:00:00:13 - Trying length 3, fixed @2, character count 23
+0:00:00:13 - Switching to length 5
+0:00:00:13 - Expanding tables for length 5 to character count 24
+0:00:00:13 - Trying length 5, fixed @2, character count 17
+0:00:00:13 - Switching to length 11
+0:00:00:13 - Expanding tables for length 11 to character count 2
+0:00:00:13 - Trying length 11, fixed @8, character count 2
+0:00:00:13 - Switching to length 6
+0:00:00:13 - Expanding tables for length 6 to character count 20
+0:00:00:13 - Trying length 6, fixed @5, character count 18
+0:00:00:13 - Switching to length 3
+0:00:00:13 - Expanding tables for length 3 to character count 33
+0:00:00:13 - Trying length 3, fixed @1, character count 26
+0:00:00:13 - Switching to length 4
+0:00:00:13 - Expanding tables for length 4 to character count 26
+0:00:00:13 - Trying length 4, fixed @1, character count 25
+0:00:00:13 - Switching to length 3
+0:00:00:13 - Expanding tables for length 3 to character count 34
+0:00:00:13 - Trying length 3, fixed @3, character count 34
+0:00:00:13 - Switching to length 8
+0:00:00:13 - Expanding tables for length 8 to character count 8
+0:00:00:13 - Trying length 8, fixed @3, character count 8
+0:00:00:13 - Switching to length 7
+0:00:00:13 - Expanding tables for length 7 to character count 11
+0:00:00:13 - Trying length 7, fixed @6, character count 11
+0:00:00:13 - Switching to length 5
+0:00:00:13 - Expanding tables for length 5 to character count 24
+0:00:00:13 - Trying length 5, fixed @5, character count 21
+0:00:00:13 - Switching to length 2
+0:00:00:13 - Expanding tables for length 2 to character count 41
+0:00:00:13 - Trying length 2, fixed @1, character count 41
+0:00:00:13 - Switching to length 6
+0:00:00:13 - Expanding tables for length 6 to character count 20
+0:00:00:13 - Trying length 6, fixed @6, character count 18
+0:00:00:13 - Switching to length 2
+0:00:00:13 - Expanding tables for length 2 to character count 41
+0:00:00:13 - Trying length 2, fixed @2, character count 41
+0:00:00:13 - Expanding tables for length 2 to character count 42
+0:00:00:13 - Trying length 2, fixed @1, character count 42
+0:00:00:13 - Expanding tables for length 2 to character count 43
+0:00:00:13 - Trying length 2, fixed @1, character count 43
+0:00:00:13 - Expanding tables for length 2 to character count 44
+0:00:00:13 - Trying length 2, fixed @1, character count 44
+0:00:00:13 - Expanding tables for length 2 to character count 45
+0:00:00:13 - Trying length 2, fixed @1, character count 45
+0:00:00:13 - Expanding tables for length 2 to character count 46
+0:00:00:13 - Trying length 2, fixed @1, character count 46
+0:00:00:13 - Switching to length 8
+0:00:00:13 - Expanding tables for length 8 to character count 8
+0:00:00:13 - Trying length 8, fixed @7, character count 8
+0:00:00:13 - Switching to length 5
+0:00:00:13 - Expanding tables for length 5 to character count 24
+0:00:00:13 - Trying length 5, fixed @5, character count 22
+0:00:00:13 - Switching to length 4
+0:00:00:13 - Expanding tables for length 4 to character count 26
+0:00:00:13 - Trying length 4, fixed @1, character count 26
+0:00:00:13 - Switching to length 6
+0:00:00:13 - Expanding tables for length 6 to character count 20
+0:00:00:13 - Trying length 6, fixed @3, character count 18
+0:00:00:13 - Switching to length 3
+0:00:00:13 - Expanding tables for length 3 to character count 34
+0:00:00:13 - Trying length 3, fixed @2, character count 24
+0:00:00:13 - Switching to length 6
+0:00:00:13 - Expanding tables for length 6 to character count 21
+0:00:00:13 - Trying length 6, fixed @4, character count 21
+0:00:00:14 - Switching to length 7
+0:00:00:14 - Expanding tables for length 7 to character count 12
+0:00:00:14 - Trying length 7, fixed @7, character count 12
+0:00:00:14 - Switching to length 4
+0:00:00:14 - Expanding tables for length 4 to character count 27
+0:00:00:14 - Trying length 4, fixed @3, character count 27
+0:00:00:14 - Switching to length 5
+0:00:00:14 - Expanding tables for length 5 to character count 24
+0:00:00:14 - Trying length 5, fixed @1, character count 22
+0:00:00:14 - Switching to length 3
+0:00:00:14 - Expanding tables for length 3 to character count 34
+0:00:00:14 - Trying length 3, fixed @1, character count 27
+0:00:00:14 - Switching to length 9
+0:00:00:14 - Expanding tables for length 9 to character count 5
+0:00:00:14 - Trying length 9, fixed @5, character count 4
+0:00:00:14 - Switching to length 5
+0:00:00:14 - Expanding tables for length 5 to character count 24
+0:00:00:14 - Trying length 5, fixed @5, character count 23
+0:00:00:14 - Switching to length 9
+0:00:00:14 - Expanding tables for length 9 to character count 5
+0:00:00:14 - Trying length 9, fixed @5, character count 5
+0:00:00:14 - Switching to length 2
+0:00:00:14 - Expanding tables for length 2 to character count 46
+0:00:00:14 - Trying length 2, fixed @2, character count 42
+0:00:00:14 - Switching to length 8
+0:00:00:14 - Expanding tables for length 8 to character count 8
+0:00:00:14 - Trying length 8, fixed @8, character count 8
+0:00:00:14 - Switching to length 4
+0:00:00:14 - Expanding tables for length 4 to character count 28
+0:00:00:14 - Trying length 4, fixed @3, character count 28
+0:00:00:14 - Switching to length 11
+0:00:00:14 - Expanding tables for length 11 to character count 2
+0:00:00:14 - Trying length 11, fixed @5, character count 2
+0:00:00:14 - Switching to length 5
+0:00:00:14 - Expanding tables for length 5 to character count 24
+0:00:00:14 - Trying length 5, fixed @3, character count 24
+0:00:00:14 - Switching to length 3
+0:00:00:14 - Expanding tables for length 3 to character count 34
+0:00:00:14 - Trying length 3, fixed @1, character count 28
+0:00:00:14 - Switching to length 6
+0:00:00:14 - Expanding tables for length 6 to character count 22
+0:00:00:14 - Trying length 6, fixed @4, character count 22
+0:00:00:14 - Switching to length 5
+0:00:00:14 - Expanding tables for length 5 to character count 24
+0:00:00:14 - Trying length 5, fixed @5, character count 24
+0:00:00:14 - Expanding tables for length 5 to character count 25
+0:00:00:14 - Trying length 5, fixed @4, character count 25
+0:00:00:14 - Switching to length 6
+0:00:00:14 - Expanding tables for length 6 to character count 22
+0:00:00:14 - Trying length 6, fixed @2, character count 18
+0:00:00:14 - Switching to length 3
+0:00:00:14 - Expanding tables for length 3 to character count 34
+0:00:00:14 - Trying length 3, fixed @2, character count 25
+0:00:00:14 - Switching to length 8
+0:00:00:14 - Expanding tables for length 8 to character count 8
+0:00:00:14 - Trying length 8, fixed @5, character count 8
+0:00:00:14 - Switching to length 7
+0:00:00:14 - Expanding tables for length 7 to character count 12
+0:00:00:14 - Trying length 7, fixed @2, character count 10
+0:00:00:14 - Trying length 7, fixed @1, character count 12
+0:00:00:14 - Switching to length 3
+0:00:00:14 - Expanding tables for length 3 to character count 34
+0:00:00:14 - Trying length 3, fixed @2, character count 26
+0:00:00:14 - Switching to length 8
+0:00:00:14 - Expanding tables for length 8 to character count 8
+0:00:00:14 - Trying length 8, fixed @1, character count 8
+0:00:00:14 - Switching to length 4
+0:00:00:14 - Expanding tables for length 4 to character count 28
+0:00:00:14 - Trying length 4, fixed @2, character count 20
+0:00:00:14 - Switching to length 11
+0:00:00:14 - Expanding tables for length 11 to character count 2
+0:00:00:14 - Trying length 11, fixed @4, character count 2
+0:00:00:14 - Switching to length 6
+0:00:00:14 - Expanding tables for length 6 to character count 22
+0:00:00:14 - Trying length 6, fixed @6, character count 19
+0:00:00:15 - Switching to length 5
+0:00:00:15 - Expanding tables for length 5 to character count 26
+0:00:00:15 - Trying length 5, fixed @4, character count 26
+0:00:00:15 - Switching to length 3
+0:00:00:15 - Expanding tables for length 3 to character count 34
+0:00:00:15 - Trying length 3, fixed @1, character count 29
+0:00:00:15 - Switching to length 4
+0:00:00:15 - Expanding tables for length 4 to character count 28
+0:00:00:15 - Trying length 4, fixed @1, character count 27
+0:00:00:15 - Switching to length 11
+0:00:00:15 - Expanding tables for length 11 to character count 2
+0:00:00:15 - Trying length 11, fixed @9, character count 2
+0:00:00:15 - Switching to length 5
+0:00:00:15 - Expanding tables for length 5 to character count 27
+0:00:00:15 - Trying length 5, fixed @4, character count 27
+0:00:00:15 - Switching to length 3
+0:00:00:15 - Expanding tables for length 3 to character count 34
+0:00:00:15 - Trying length 3, fixed @1, character count 30
+0:00:00:15 - Switching to length 8
+0:00:00:15 - Expanding tables for length 8 to character count 8
+0:00:00:15 - Trying length 8, fixed @4, character count 8
+0:00:00:15 - Switching to length 6
+0:00:00:15 - Expanding tables for length 6 to character count 22
+0:00:00:15 - Trying length 6, fixed @1, character count 19
+0:00:00:15 - Trying length 6, fixed @3, character count 19
+0:00:00:15 - Switching to length 4
+0:00:00:15 - Expanding tables for length 4 to character count 28
+0:00:00:15 - Trying length 4, fixed @2, character count 21
+0:00:00:15 - Switching to length 8
+0:00:00:15 - Expanding tables for length 8 to character count 8
+0:00:00:15 - Trying length 8, fixed @6, character count 8
+0:00:00:15 - Switching to length 4
+0:00:00:15 - Expanding tables for length 4 to character count 28
+0:00:00:15 - Trying length 4, fixed @4, character count 25
+0:00:00:15 - Switching to length 7
+0:00:00:15 - Expanding tables for length 7 to character count 12
+0:00:00:15 - Trying length 7, fixed @6, character count 12
+0:00:00:15 - Switching to length 3
+0:00:00:15 - Expanding tables for length 3 to character count 34
+0:00:00:15 - Trying length 3, fixed @2, character count 27
+0:00:00:15 - Switching to length 4
+0:00:00:15 - Expanding tables for length 4 to character count 28
+0:00:00:15 - Trying length 4, fixed @4, character count 26
+0:00:00:15 - Trying length 4, fixed @1, character count 28
+0:00:00:15 - Switching to length 5
+0:00:00:15 - Expanding tables for length 5 to character count 27
+0:00:00:15 - Trying length 5, fixed @2, character count 18
+0:00:00:15 - Switching to length 3
+0:00:00:15 - Expanding tables for length 3 to character count 34
+0:00:00:15 - Trying length 3, fixed @2, character count 28
+0:00:00:15 - Switching to length 6
+0:00:00:15 - Expanding tables for length 6 to character count 22
+0:00:00:15 - Trying length 6, fixed @2, character count 19
+0:00:00:15 - Switching to length 7
+0:00:00:15 - Expanding tables for length 7 to character count 12
+0:00:00:15 - Trying length 7, fixed @4, character count 12
+0:00:00:15 - Switching to length 3
+0:00:00:15 - Expanding tables for length 3 to character count 34
+0:00:00:15 - Trying length 3, fixed @2, character count 29
+0:00:00:15 - Expanding tables for length 3 to character count 35
+0:00:00:15 - Trying length 3, fixed @3, character count 35
+0:00:00:15 - Switching to length 5
+0:00:00:15 - Expanding tables for length 5 to character count 27
+0:00:00:15 - Trying length 5, fixed @3, character count 25
+0:00:00:15 - Switching to length 4
+0:00:00:15 - Expanding tables for length 4 to character count 29
+0:00:00:15 - Trying length 4, fixed @3, character count 29
+0:00:00:15 - Switching to length 6
+0:00:00:15 - Expanding tables for length 6 to character count 22
+0:00:00:15 - Trying length 6, fixed @5, character count 19
+0:00:00:15 - Expanding tables for length 6 to character count 23
+0:00:00:15 - Trying length 6, fixed @4, character count 23
+0:00:00:15 - Switching to length 7
+0:00:00:15 - Expanding tables for length 7 to character count 12
+0:00:00:15 - Trying length 7, fixed @5, character count 12
+0:00:00:16 - Switching to length 3
+0:00:00:16 - Expanding tables for length 3 to character count 35
+0:00:00:16 - Trying length 3, fixed @2, character count 30
+0:00:00:16 - Switching to length 5
+0:00:00:16 - Expanding tables for length 5 to character count 27
+0:00:00:16 - Trying length 5, fixed @1, character count 23
+0:00:00:16 - Switching to length 8
+0:00:00:16 - Expanding tables for length 8 to character count 8
+0:00:00:16 - Trying length 8, fixed @2, character count 8
+0:00:00:16 - Switching to length 2
+0:00:00:16 - Expanding tables for length 2 to character count 46
+0:00:00:16 - Trying length 2, fixed @2, character count 43
+0:00:00:16 - Trying length 2, fixed @2, character count 44
+0:00:00:16 - Trying length 2, fixed @2, character count 45
+0:00:00:16 - Switching to length 4
+0:00:00:16 - Expanding tables for length 4 to character count 30
+0:00:00:16 - Trying length 4, fixed @3, character count 30
+0:00:00:16 - Switching to length 7
+0:00:00:16 - Expanding tables for length 7 to character count 13
+0:00:00:16 - Trying length 7, fixed @7, character count 13
+0:00:00:16 - Switching to length 2
+0:00:00:16 - Expanding tables for length 2 to character count 46
+0:00:00:16 - Trying length 2, fixed @2, character count 46
+0:00:00:16 - Expanding tables for length 2 to character count 47
+0:00:00:16 - Trying length 2, fixed @1, character count 47
+0:00:00:16 - Switching to length 11
+0:00:00:16 - Expanding tables for length 11 to character count 2
+0:00:00:16 - Trying length 11, fixed @7, character count 2
+0:00:00:16 - Switching to length 10
+0:00:00:16 - Expanding tables for length 10 to character count 4
+0:00:00:16 - Trying length 10, fixed @2, character count 4
+0:00:00:16 - Switching to length 3
+0:00:00:16 - Expanding tables for length 3 to character count 35
+0:00:00:16 - Trying length 3, fixed @1, character count 31
+0:00:00:16 - Switching to length 2
+0:00:00:16 - Expanding tables for length 2 to character count 47
+0:00:00:16 - Trying length 2, fixed @2, character count 47
+0:00:00:16 - Switching to length 6
+0:00:00:16 - Expanding tables for length 6 to character count 23
+0:00:00:16 - Trying length 6, fixed @3, character count 20
+0:00:00:16 - Switching to length 2
+0:00:00:16 - Expanding tables for length 2 to character count 48
+0:00:00:16 - Trying length 2, fixed @1, character count 48
+0:00:00:16 - Switching to length 11
+0:00:00:16 - Expanding tables for length 11 to character count 2
+0:00:00:16 - Trying length 11, fixed @11, character count 2
+0:00:00:16 - Switching to length 2
+0:00:00:16 - Expanding tables for length 2 to character count 48
+0:00:00:16 - Trying length 2, fixed @2, character count 48
+0:00:00:16 - Expanding tables for length 2 to character count 49
+0:00:00:16 - Trying length 2, fixed @1, character count 49
+0:00:00:16 - Expanding tables for length 2 to character count 50
+0:00:00:16 - Trying length 2, fixed @1, character count 50
+0:00:00:16 - Expanding tables for length 2 to character count 51
+0:00:00:16 - Trying length 2, fixed @1, character count 51
+0:00:00:16 - Expanding tables for length 2 to character count 52
+0:00:00:16 - Trying length 2, fixed @1, character count 52
+0:00:00:16 - Expanding tables for length 2 to character count 53
+0:00:00:16 - Trying length 2, fixed @1, character count 53
+0:00:00:16 - Expanding tables for length 2 to character count 54
+0:00:00:16 - Trying length 2, fixed @1, character count 54
+0:00:00:16 - Expanding tables for length 2 to character count 55
+0:00:00:16 - Trying length 2, fixed @1, character count 55
+0:00:00:16 - Switching to length 6
+0:00:00:16 - Expanding tables for length 6 to character count 24
+0:00:00:16 - Trying length 6, fixed @4, character count 24
+0:00:00:16 - Switching to length 10
+0:00:00:16 - Expanding tables for length 10 to character count 5
+0:00:00:16 - Trying length 10, fixed @2, character count 5
+0:00:00:16 - Switching to length 5
+0:00:00:16 - Expanding tables for length 5 to character count 27
+0:00:00:16 - Trying length 5, fixed @2, character count 19
+0:00:00:16 - Switching to length 3
+0:00:00:16 - Expanding tables for length 3 to character count 35
+0:00:00:16 - Trying length 3, fixed @2, character count 31
+0:00:00:16 - Switching to length 7
+0:00:00:16 - Expanding tables for length 7 to character count 13
+0:00:00:16 - Trying length 7, fixed @3, character count 12
+0:00:00:16 - Switching to length 3
+0:00:00:16 - Expanding tables for length 3 to character count 35
+0:00:00:16 - Trying length 3, fixed @1, character count 32
+0:00:00:16 - Switching to length 5
+0:00:00:16 - Expanding tables for length 5 to character count 27
+0:00:00:16 - Trying length 5, fixed @5, character count 25
+0:00:00:16 - Trying length 5, fixed @3, character count 26
+0:00:00:16 - Switching to length 9
+0:00:00:16 - Expanding tables for length 9 to character count 6
+0:00:00:16 - Trying length 9, fixed @6, character count 6
+0:00:00:16 - Switching to length 7
+0:00:00:16 - Expanding tables for length 7 to character count 13
+0:00:00:16 - Trying length 7, fixed @1, character count 13
+0:00:00:16 - Switching to length 4
+0:00:00:16 - Expanding tables for length 4 to character count 30
+0:00:00:16 - Trying length 4, fixed @2, character count 22
+0:00:00:16 - Switching to length 3
+0:00:00:16 - Expanding tables for length 3 to character count 35
+0:00:00:16 - Trying length 3, fixed @2, character count 32
+0:00:00:16 - Switching to length 6
+0:00:00:16 - Expanding tables for length 6 to character count 24
+0:00:00:16 - Trying length 6, fixed @1, character count 20
+0:00:00:17 - Switching to length 3
+0:00:00:17 - Expanding tables for length 3 to character count 35
+0:00:00:17 - Trying length 3, fixed @1, character count 33
+0:00:00:17 - Switching to length 9
+0:00:00:17 - Expanding tables for length 9 to character count 6
+0:00:00:17 - Trying length 9, fixed @3, character count 6
+0:00:00:17 - Switching to length 2
+0:00:00:17 - Expanding tables for length 2 to character count 55
+0:00:00:17 - Trying length 2, fixed @2, character count 49
+0:00:00:17 - Trying length 2, fixed @2, character count 50
+0:00:00:17 - Switching to length 5
+0:00:00:17 - Expanding tables for length 5 to character count 27
+0:00:00:17 - Trying length 5, fixed @5, character count 26
+0:00:00:17 - Trying length 5, fixed @3, character count 27
+0:00:00:17 - Switching to length 3
+0:00:00:17 - Expanding tables for length 3 to character count 35
+0:00:00:17 - Trying length 3, fixed @2, character count 33
+0:00:00:17 - Expanding tables for length 3 to character count 36
+0:00:00:17 - Trying length 3, fixed @3, character count 36
+0:00:00:17 - Switching to length 8
+0:00:00:17 - Expanding tables for length 8 to character count 9
+0:00:00:17 - Trying length 8, fixed @7, character count 9
+0:00:00:17 - Switching to length 4
+0:00:00:17 - Expanding tables for length 4 to character count 30
+0:00:00:17 - Trying length 4, fixed @4, character count 27
+0:00:00:17 - Switching to length 6
+0:00:00:17 - Expanding tables for length 6 to character count 24
+0:00:00:17 - Trying length 6, fixed @2, character count 20
+0:00:00:17 - Switching to length 4
+0:00:00:17 - Expanding tables for length 4 to character count 30
+0:00:00:17 - Trying length 4, fixed @4, character count 28
+0:00:00:17 - Switching to length 8
+0:00:00:17 - Expanding tables for length 8 to character count 9
+0:00:00:17 - Trying length 8, fixed @3, character count 9
+0:00:00:17 - Switching to length 9
+0:00:00:17 - Expanding tables for length 9 to character count 6
+0:00:00:17 - Trying length 9, fixed @2, character count 6
+0:00:00:17 - Switching to length 5
+0:00:00:17 - Expanding tables for length 5 to character count 27
+0:00:00:17 - Trying length 5, fixed @2, character count 20
+0:00:00:17 - Switching to length 6
+0:00:00:17 - Expanding tables for length 6 to character count 24
+0:00:00:17 - Trying length 6, fixed @5, character count 20
+0:00:00:17 - Switching to length 7
+0:00:00:17 - Expanding tables for length 7 to character count 13
+0:00:00:17 - Trying length 7, fixed @2, character count 11
+0:00:00:17 - Switching to length 5
+0:00:00:17 - Expanding tables for length 5 to character count 28
+0:00:00:17 - Trying length 5, fixed @4, character count 28
+0:00:00:17 - Switching to length 6
+0:00:00:17 - Expanding tables for length 6 to character count 24
+0:00:00:17 - Trying length 6, fixed @3, character count 21
+0:00:00:17 - Switching to length 8
+0:00:00:17 - Expanding tables for length 8 to character count 9
+0:00:00:17 - Trying length 8, fixed @8, character count 9
+0:00:00:18 - Switching to length 7
+0:00:00:18 - Expanding tables for length 7 to character count 13
+0:00:00:18 - Trying length 7, fixed @6, character count 13
+0:00:00:18 - Switching to length 3
+0:00:00:18 - Expanding tables for length 3 to character count 36
+0:00:00:18 - Trying length 3, fixed @1, character count 34
+0:00:00:18 - Switching to length 4
+0:00:00:18 - Expanding tables for length 4 to character count 30
+0:00:00:18 - Trying length 4, fixed @4, character count 29
+0:00:00:18 - Switching to length 9
+0:00:00:18 - Expanding tables for length 9 to character count 6
+0:00:00:18 - Trying length 9, fixed @9, character count 6
+0:00:00:18 - Switching to length 7
+0:00:00:18 - Expanding tables for length 7 to character count 13
+0:00:00:18 - Trying length 7, fixed @4, character count 13
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked alice
+0:00:00:00 + Cracked bob
+0:00:00:00 + Cracked carol
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 4 password hashes with no different salts
+0:00:00:00 Command line: /run/john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with "incremental" mode: ascii
+0:00:00:00 - Lengths 0 to 13, up to 95 different characters
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-md5 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\md5.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-MD5 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: /run/john --format=raw-sha256 --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\sha256.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: Raw-SHA256 (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 196608
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked target
+0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 4096 for all loaded hashes
+0:00:00:00 Command line: /run/john --format=bcrypt --wordlist=D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt D:\E\repos\jhontheripper\demo\temp\bcrypt.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: bcrypt (min-len 0, max-len 24 [worst case UTF-8] to 72 [ASCII])
+0:00:00:00 - Algorithm: Blowfish 32/64 X3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 108
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:01 + Cracked target
+0:00:00:01 Session completed

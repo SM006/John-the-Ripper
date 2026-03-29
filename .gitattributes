@@ -1,0 +1,2 @@
+rockyou.txt filter=lfs diff=lfs merge=lfs -text
+john-1.9.0-jumbo-1-win64/run/rockyou.txt filter=lfs diff=lfs merge=lfs -text

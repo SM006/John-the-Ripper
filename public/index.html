@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John the Ripper — Live Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- ── Header ────────────────────────────────── -->
+  <header class="header">
+    <div class="header-content">
+      <h1 class="header-title">John the Ripper</h1>
+      <p class="header-subtitle">Live Password Auditing Lab</p>
+    </div>
+    <div class="header-status">
+      <span class="status-dot" id="statusDot"></span>
+      <span class="status-text" id="statusText">Connecting...</span>
+    </div>
+  </header>
+
+  <!-- ── Main Layout ───────────────────────────── -->
+  <main class="main">
+
+    <!-- Left Panel -->
+    <div class="left-panel">
+
+      <!-- Hash Generator -->
+      <section class="card anim-in" style="--delay: 0.1s">
+        <div class="card-header">
+          <h2 class="card-title">Hash Generator</h2>
+          <span class="card-badge">Interactive</span>
+        </div>
+        <div class="hash-generator">
+          <div class="input-group">
+            <label for="hashInput">Enter a password</label>
+            <input type="text" id="hashInput" placeholder="Type a password..." autocomplete="off" spellcheck="false">
+          </div>
+          <div class="hash-results" id="hashResults">
+            <div class="hash-row">
+              <div class="hash-label">
+                <span class="algo-badge md5">MD5</span>
+                <span class="hash-time" id="md5Time"></span>
+              </div>
+              <code class="hash-value" id="md5Hash">—</code>
+            </div>
+            <div class="hash-row">
+              <div class="hash-label">
+                <span class="algo-badge sha256">SHA-256</span>
+                <span class="hash-time" id="sha256Time"></span>
+              </div>
+              <code class="hash-value" id="sha256Hash">—</code>
+            </div>
+            <div class="hash-row">
+              <div class="hash-label">
+                <span class="algo-badge bcrypt-badge">bcrypt</span>
+                <span class="hash-time" id="bcryptTime"></span>
+              </div>
+              <code class="hash-value" id="bcryptHash">—</code>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Attack Controls -->
+      <section class="card anim-in" style="--delay: 0.2s">
+        <div class="card-header">
+          <h2 class="card-title">Attack Lab</h2>
+          <span class="card-badge">John the Ripper</span>
+        </div>
+        <div class="attack-controls">
+          <div class="attack-buttons">
+            <button class="btn btn-attack" data-attack="dictionary_attack" id="btnDictionary">
+              <span class="btn-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="2" width="14" height="16" rx="1.5"/>
+                  <line x1="6.5" y1="6" x2="13.5" y2="6"/>
+                  <line x1="6.5" y1="9" x2="13.5" y2="9"/>
+                  <line x1="6.5" y1="12" x2="10.5" y2="12"/>
+                </svg>
+              </span>
+              <span class="btn-label">Dictionary Attack</span>
+              <span class="btn-desc">rockyou.txt — 14M passwords</span>
+            </button>
+            <button class="btn btn-attack" data-attack="incremental_attack" id="btnIncremental">
+              <span class="btn-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10 2 L10 5"/>
+                  <path d="M10 15 L10 18"/>
+                  <path d="M2 10 L5 10"/>
+                  <path d="M15 10 L18 10"/>
+                  <circle cx="10" cy="10" r="4"/>
+                  <path d="M4.5 4.5 L6.5 6.5"/>
+                  <path d="M13.5 13.5 L15.5 15.5"/>
+                  <path d="M15.5 4.5 L13.5 6.5"/>
+                  <path d="M4.5 15.5 L6.5 13.5"/>
+                </svg>
+              </span>
+              <span class="btn-label">Incremental Attack</span>
+              <span class="btn-desc">Brute-force all combinations</span>
+            </button>
+            <button class="btn btn-attack btn-compare" data-attack="hash_compare" id="btnCompare">
+              <span class="btn-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="5" height="14" rx="1"/>
+                  <rect x="7.5" y="7" width="5" height="10" rx="1"/>
+                  <rect x="13" y="1" width="5" height="16" rx="1"/>
+                  <line x1="1" y1="19" x2="19" y2="19"/>
+                </svg>
+              </span>
+              <span class="btn-label">Hash Comparison</span>
+              <span class="btn-desc">MD5 vs SHA-256 vs bcrypt</span>
+            </button>
+          </div>
+
+          <!-- Hash compare password input (shown when compare is selected) -->
+          <div class="compare-config" id="compareConfig">
+            <div class="input-group">
+              <label for="comparePassword">Password to compare</label>
+              <input type="text" id="comparePassword" value="password" autocomplete="off" spellcheck="false">
+            </div>
+            <div class="compare-suggestions">
+              <button class="pill" data-pw="password">password</button>
+              <button class="pill" data-pw="sunshine1">sunshine1</button>
+              <button class="pill" data-pw="trustno1">trustno1</button>
+              <button class="pill" data-pw="dragon">dragon</button>
+            </div>
+            <button class="btn btn-run" id="btnRunCompare">Run Comparison</button>
+          </div>
+
+          <button class="btn btn-stop" id="btnStop" disabled>
+            Stop Attack
+          </button>
+        </div>
+      </section>
+
+      <!-- Breach Results Table -->
+      <section class="card anim-in" style="--delay: 0.3s">
+        <div class="card-header">
+          <h2 class="card-title">Breach Simulation</h2>
+          <span class="card-badge" id="breachCount">0 / 4 cracked</span>
+        </div>
+        <div class="breach-table-wrap">
+          <table class="breach-table" id="breachTable">
+            <thead>
+              <tr>
+                <th>User</th>
+                <th>Hash</th>
+                <th>Status</th>
+                <th>Password</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-user="alice">
+                <td class="user-cell">alice</td>
+                <td class="hash-cell"><code>5f4dcc3b5aa765d6...cf99</code></td>
+                <td class="status-cell"><span class="tag tag-locked">LOCKED</span></td>
+                <td class="pw-cell">••••••••</td>
+                <td class="time-cell">—</td>
+              </tr>
+              <tr data-user="bob">
+                <td class="user-cell">bob</td>
+                <td class="hash-cell"><code>e99a18c428cb38d5...2e03</code></td>
+                <td class="status-cell"><span class="tag tag-locked">LOCKED</span></td>
+                <td class="pw-cell">••••••••</td>
+                <td class="time-cell">—</td>
+              </tr>
+              <tr data-user="carol">
+                <td class="user-cell">carol</td>
+                <td class="hash-cell"><code>0d107d09f5bbe40c...e9b7</code></td>
+                <td class="status-cell"><span class="tag tag-locked">LOCKED</span></td>
+                <td class="pw-cell">••••••••</td>
+                <td class="time-cell">—</td>
+              </tr>
+              <tr data-user="dave">
+                <td class="user-cell">dave</td>
+                <td class="hash-cell"><code>c2fe1ddfce87639e...70fe</code></td>
+                <td class="status-cell"><span class="tag tag-locked">LOCKED</span></td>
+                <td class="pw-cell">••••••••</td>
+                <td class="time-cell">—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Hash Comparison Results -->
+      <section class="card anim-in" style="--delay: 0.35s" id="compareResultsCard">
+        <div class="card-header">
+          <h2 class="card-title">Algorithm Speed Comparison</h2>
+          <span class="card-badge">Same password, 3 algorithms</span>
+        </div>
+        <div class="compare-cards" id="compareCards">
+          <div class="algo-card" data-algo="md5" id="algoMd5">
+            <span class="algo-name">MD5</span>
+            <div class="algo-speed" id="speedMd5">—</div>
+            <div class="algo-time" id="timeMd5">Waiting...</div>
+            <div class="algo-bar"><div class="algo-bar-fill" id="barMd5"></div></div>
+            <span class="algo-status" id="statusMd5">Idle</span>
+          </div>
+          <div class="algo-card" data-algo="sha256" id="algoSha256">
+            <span class="algo-name">SHA-256</span>
+            <div class="algo-speed" id="speedSha256">—</div>
+            <div class="algo-time" id="timeSha256">Waiting...</div>
+            <div class="algo-bar"><div class="algo-bar-fill" id="barSha256"></div></div>
+            <span class="algo-status" id="statusSha256">Idle</span>
+          </div>
+          <div class="algo-card" data-algo="bcrypt" id="algoBcrypt">
+            <span class="algo-name">bcrypt</span>
+            <div class="algo-speed" id="speedBcrypt">—</div>
+            <div class="algo-time" id="timeBcrypt">Waiting...</div>
+            <div class="algo-bar"><div class="algo-bar-fill" id="barBcrypt"></div></div>
+            <span class="algo-status" id="statusBcrypt">Idle</span>
+          </div>
+        </div>
+        <div class="chart-container">
+          <canvas id="speedChart"></canvas>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Right Panel — Terminal -->
+    <div class="right-panel">
+      <div class="card terminal-card anim-in" style="--delay: 0.15s">
+        <div class="terminal-chrome">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="terminal-title">john the ripper — live output</span>
+          <button class="terminal-clear" id="btnClearTerminal" title="Clear">&#x2715;</button>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="terminal-output" id="terminalOutput"></div>
+          <div class="terminal-cursor"></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" src="/js/terminal.js"></script>
+  <script type="module" src="/js/charts.js"></script>
+  <script type="module" src="/js/main.js"></script>
+
+</body>
+</html>
