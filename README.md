@@ -80,37 +80,39 @@ npx kill-port 3000
 
 ## Option B — CLI Only (No Website)
 
-Run John the Ripper directly from Command Prompt. No Node.js required.
+Run John the Ripper directly from the terminal. No Node.js required. Works in both **PowerShell** and **CMD**.
 
 ### Setup
 
-Open Command Prompt and navigate to the run folder:
+Open a terminal and navigate to the `run` folder (where `john.exe` lives):
 
-```cmd
+```powershell
 cd D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run
 ```
 
 Delete any previous session cache:
 
-```cmd
+```powershell
 del john.pot
 ```
+
+> **Important:** You must be inside the `run` folder for `.\john` to work. All commands below assume you are in `D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run\`.
 
 ### Demo 1 — Dictionary Attack
 
 Compares hashes against rockyou.txt (14.3 million real leaked passwords).
 
-```cmd
-:: Show the hash file
+```powershell
+# Show the hash file
 type D:\E\repos\jhontheripper\demo\shadow.txt
 
-:: Run dictionary attack
-john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt
+# Run dictionary attack
+.\john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt
 
-:: Show cracked passwords
-john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
+# Show cracked passwords
+.\john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
 
-:: Clear session
+# Clear session
 del john.pot
 ```
 
@@ -127,16 +129,16 @@ del john.pot
 
 Tries every possible character combination. Let it run 15-20 seconds, then `Ctrl+C`.
 
-```cmd
-:: Run brute-force attack
-john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
+```powershell
+# Run brute-force attack
+.\john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
 
-:: (wait 15-20 seconds, then press Ctrl+C)
+# (wait 15-20 seconds, then press Ctrl+C)
 
-:: Show results
-john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
+# Show results
+.\john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
 
-:: Clear session
+# Clear session
 del john.pot
 ```
 
@@ -146,8 +148,8 @@ Short/common passwords may crack, but complex ones (like dave's) survive indefin
 
 Same password hashed with MD5, SHA-256, and bcrypt. Crack each one to compare speeds.
 
-```cmd
-:: Show all three hash files
+```powershell
+# Show all three hash files
 type D:\E\repos\jhontheripper\demo\hash_md5.txt
 type D:\E\repos\jhontheripper\demo\hash_sha256.txt
 type D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
@@ -155,22 +157,22 @@ type D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
 
 **MD5** (cracks instantly):
 
-```cmd
-john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_md5.txt
+```powershell
+.\john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_md5.txt
 del john.pot
 ```
 
 **SHA-256** (cracks instantly):
 
-```cmd
-john --format=raw-sha256 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_sha256.txt
+```powershell
+.\john --format=raw-sha256 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_sha256.txt
 del john.pot
 ```
 
 **bcrypt** (visibly slow — let it run 20+ seconds, then `Ctrl+C`):
 
-```cmd
-john --format=bcrypt --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
+```powershell
+.\john --format=bcrypt --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
 ```
 
 **Speed comparison:**
