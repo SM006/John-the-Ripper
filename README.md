@@ -1,22 +1,31 @@
-# John the Ripper — Live Demo Guide
+# John the Ripper — Password Auditing Demo
 
-Password auditing tool demo: Dictionary Attack, Incremental Attack, and Hash Format Comparison.
+Live demonstration of password cracking: Dictionary Attack, Incremental Attack, and Hash Format Comparison. Includes a web dashboard with real-time terminal output and a CLI-only mode.
 
 ---
 
 ## Folder Structure
 
 ```
-D:\E\repos\jhontheripper\
-├── john-1.9.0-jumbo-1-win64\run\
-│   ├── john.exe              # main executable
-│   ├── rockyou.txt           # 14.3M password wordlist
-│   └── john.pot              # auto-created cracked password cache (delete before demo)
-└── demo\
-    ├── shadow.txt            # 4 users with MD5 hashes (dictionary attack)
-    ├── hash_md5.txt          # "password" hashed with MD5
-    ├── hash_sha256.txt       # "password" hashed with SHA-256
-    └── hash_bcrypt.txt       # "password" hashed with bcrypt (rounds=12)
+jhontheripper/
+├── server.js                          # Web dashboard backend
+├── package.json
+├── public/                            # Web dashboard frontend
+│   ├── index.html
+│   ├── css/styles.css
+│   └── js/
+│       ├── main.js
+│       ├── terminal.js
+│       └── charts.js
+├── demo/                              # Pre-generated hash files
+│   ├── shadow.txt                     # 4 users with MD5 hashes
+│   ├── hash_md5.txt                   # "password" → MD5
+│   ├── hash_sha256.txt                # "password" → SHA-256
+│   └── hash_bcrypt.txt                # "password" → bcrypt
+├── john-1.9.0-jumbo-1-win64/run/      # John the Ripper binary
+│   ├── john.exe
+│   └── rockyou.txt                    # 14.3M password wordlist
+└── rockyou.txt                        # Wordlist (root copy)
 ```
 
 ---
@@ -24,13 +33,56 @@ D:\E\repos\jhontheripper\
 ## Prerequisites
 
 - Windows 10/11
-- Python 3 (with `bcrypt` library: `pip install bcrypt`)
-- John the Ripper 1.9.0-jumbo-1 (already extracted in this repo)
-- rockyou.txt wordlist (already in `run/` folder)
+- [Node.js](https://nodejs.org/) (v18+) — for web dashboard
+- [Python 3](https://www.python.org/downloads/) — for regenerating hash files
+- `pip install bcrypt` — for bcrypt hash generation
 
 ---
 
-## Before the Demo
+## Option A — Web Dashboard (Recommended)
+
+A visual dashboard with interactive controls, live terminal, breach simulation table, and Chart.js speed comparison.
+
+### Setup
+
+```cmd
+cd D:\E\repos\jhontheripper
+npm install
+```
+
+### Run
+
+```cmd
+npm start
+```
+
+Open **http://localhost:3000** in your browser.
+
+### Features
+
+| Section | What it does |
+|---------|-------------|
+| **Hash Generator** | Type any password, see MD5 / SHA-256 / bcrypt hashes in real-time |
+| **Dictionary Attack** | One-click attack using rockyou.txt against 4 user accounts |
+| **Incremental Attack** | Brute-force all character combinations, stop when ready |
+| **Hash Comparison** | Pick a password, attack it with MD5 → SHA-256 → bcrypt side by side |
+| **Breach Table** | Passwords reveal in real-time as they crack |
+| **Live Terminal** | Streams actual john.exe output with explanations |
+| **Speed Chart** | Chart.js bar chart comparing algorithm cracking speeds |
+
+### Kill the server
+
+```cmd
+npx kill-port 3000
+```
+
+---
+
+## Option B — CLI Only (No Website)
+
+Run John the Ripper directly from Command Prompt. No Node.js required.
+
+### Setup
 
 Open Command Prompt and navigate to the run folder:
 
@@ -38,151 +90,98 @@ Open Command Prompt and navigate to the run folder:
 cd D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run
 ```
 
-Delete the pot file to clear any previous results:
+Delete any previous session cache:
 
 ```cmd
 del john.pot
 ```
 
-Set your CMD font to **18pt** for visibility:
-Right-click title bar → Properties → Font → Size: 18
+### Demo 1 — Dictionary Attack
 
-Open **3 separate CMD windows**, all in the `run` folder.
-
----
-
-## Demo 1 — Dictionary Attack (Window 1)
-
-Uses rockyou.txt (14 million real leaked passwords) to crack MD5 hashes.
-
-**Show the hash file first:**
+Compares hashes against rockyou.txt (14.3 million real leaked passwords).
 
 ```cmd
+:: Show the hash file
 type D:\E\repos\jhontheripper\demo\shadow.txt
-```
 
-**Run the attack:**
-
-```cmd
+:: Run dictionary attack
 john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\shadow.txt
-```
 
-**Show cracked passwords:**
-
-```cmd
+:: Show cracked passwords
 john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
-```
 
-**Clear session before next attack:**
-
-```cmd
+:: Clear session
 del john.pot
 ```
 
-### Expected Results
+**Expected results:**
 
-| User  | Password    | Result    |
-|-------|-------------|-----------|
-| alice | password    | CRACKED   |
-| bob   | abc123      | CRACKED   |
-| carol | letmein     | CRACKED   |
-| dave  | S3cur3P@ss  | RESISTANT |
+| User  | Password   | Result    |
+|-------|------------|-----------|
+| alice | password   | CRACKED   |
+| bob   | abc123     | CRACKED   |
+| carol | letmein    | CRACKED   |
+| dave  | S3cur3P@ss | RESISTANT |
 
-**What to say:** "Three of these four passwords cracked in under 2 seconds because they exist verbatim in the rockyou wordlist — 14 million real passwords from an actual breach. Dave's password survived only because it is not in any wordlist."
+### Demo 2 — Incremental (Brute-Force) Attack
 
----
-
-## Demo 2 — Incremental / Brute-Force Attack (Window 2)
-
-Tries every possible character combination systematically. Let it run 15-20 seconds, then press `Ctrl+C`.
-
-**Run the attack:**
+Tries every possible character combination. Let it run 15-20 seconds, then `Ctrl+C`.
 
 ```cmd
-john --incremental=All --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
-```
+:: Run brute-force attack
+john --incremental=ascii --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
 
-*(Let it run 15-20 seconds, then press Ctrl+C)*
+:: (wait 15-20 seconds, then press Ctrl+C)
 
-**Show results (nothing cracked):**
-
-```cmd
+:: Show results
 john --show --format=raw-md5 D:\E\repos\jhontheripper\demo\shadow.txt
-```
 
-**Clear session:**
-
-```cmd
+:: Clear session
 del john.pot
 ```
 
-**What to say:** "Unlike dictionary, incremental tries every combination — a, b, c... aa, ab, ac... It has been running for 20 seconds with no result. A complex password would take years at this rate. This is exactly why length and special characters matter."
+Short/common passwords may crack, but complex ones (like dave's) survive indefinitely.
 
----
+### Demo 3 — Hash Format Comparison
 
-## Demo 3 — Hash Format Comparison (Window 3)
-
-Same password "password" hashed with MD5, SHA-256, and bcrypt. This is the most impactful segment.
-
-**Show all three hash files first:**
+Same password hashed with MD5, SHA-256, and bcrypt. Crack each one to compare speeds.
 
 ```cmd
+:: Show all three hash files
 type D:\E\repos\jhontheripper\demo\hash_md5.txt
 type D:\E\repos\jhontheripper\demo\hash_sha256.txt
 type D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
 ```
 
-### Attack 1 — MD5 (cracks instantly)
+**MD5** (cracks instantly):
 
 ```cmd
 john --format=raw-md5 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_md5.txt
-```
-
-```cmd
 del john.pot
 ```
 
-### Attack 2 — SHA-256 (cracks instantly)
+**SHA-256** (cracks instantly):
 
 ```cmd
 john --format=raw-sha256 --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_sha256.txt
-```
-
-```cmd
 del john.pot
 ```
 
-### Attack 3 — bcrypt (visibly slow)
+**bcrypt** (visibly slow — let it run 20+ seconds, then `Ctrl+C`):
 
 ```cmd
 john --format=bcrypt --wordlist=rockyou.txt D:\E\repos\jhontheripper\demo\hash_bcrypt.txt
 ```
 
-*(Let it run 20+ seconds, then press Ctrl+C)*
+**Speed comparison:**
 
-### Speed Comparison
+| Algorithm | Speed            | Time to Crack |
+|-----------|------------------|---------------|
+| MD5       | ~14,000,000 p/s  | < 1 second    |
+| SHA-256   | ~8,000,000 p/s   | < 1 second    |
+| bcrypt    | ~60 p/s          | Hours+        |
 
-| Algorithm | Speed             | Time to Crack |
-|-----------|-------------------|---------------|
-| MD5       | ~16,000,000 pw/s  | < 1 second    |
-| SHA-256   | ~10,000,000 pw/s  | < 1 second    |
-| bcrypt    | ~71 pw/s          | Hours+        |
-
-bcrypt is **~150,000x slower** to crack than MD5.
-
-**What to say:** "Same password — 'password' — three different hashing algorithms. MD5 and SHA-256 fall in seconds. bcrypt is deliberately designed to be slow, making mass cracking computationally infeasible. This is why modern systems must never store passwords as MD5."
-
----
-
-## Troubleshooting
-
-| Problem | Fix |
-|---------|-----|
-| `john` is not recognized | You're not in the run folder — `cd D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run` |
-| `Loaded 0 password hashes` | Delete john.pot — `del john.pot` — it already cracked them |
-| No hashes loaded | Check hash file format: each line must be `username:hash` |
-| Dictionary attack finds nothing | Verify rockyou.txt exists in the run folder |
-| Attack finishes instantly with no output | Already cracked — run `john --show <file>` to see results |
+bcrypt is **~200,000x slower** to crack than MD5.
 
 ---
 
@@ -221,11 +220,33 @@ python -c "import bcrypt; open('demo/hash_bcrypt.txt','w').write('user3:'+bcrypt
 
 ---
 
+## Troubleshooting
+
+| Problem | Fix |
+|---------|-----|
+| `john` is not recognized | Navigate to run folder: `cd D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run` |
+| `Loaded 0 password hashes` | Delete john.pot: `del john.pot` |
+| No hashes loaded | Check file format — each line must be `username:hash` |
+| Dictionary finds nothing | Verify rockyou.txt exists in the run folder |
+| Attack finishes instantly | Already cracked — run `john --show <file>` to see results |
+| Website won't start | Run `npm install` first, then `npm start` |
+| Port 3000 in use | Kill it: `npx kill-port 3000` |
+| `Unknown incremental mode: All` | Use `--incremental=ascii` instead |
+
+---
+
 ## Day-of Checklist
 
-- [ ] CMD font set to 18pt
-- [ ] 3 CMD windows open, all in `D:\E\repos\jhontheripper\john-1.9.0-jumbo-1-win64\run`
+### Web Dashboard
+- [ ] `npm install` completed
+- [ ] `npm start` runs without errors
+- [ ] Browser open at http://localhost:3000
+- [ ] All 4 sections working (hash generator, dictionary, incremental, hash comparison)
+
+### CLI Only
+- [ ] CMD font set to 18pt (right-click title bar → Properties → Font)
+- [ ] CMD open in `john-1.9.0-jumbo-1-win64\run`
 - [ ] `john.pot` deleted
 - [ ] rockyou.txt in run folder
 - [ ] All hash files in demo folder
-- [ ] Test-run each attack once to confirm
+- [ ] Test-run each attack once
